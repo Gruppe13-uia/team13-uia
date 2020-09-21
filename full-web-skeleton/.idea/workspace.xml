@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddUserToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/ChangeNameToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/DeleteUserNameFromDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/EditUserInDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/InsertNewUserToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveUserNameFromDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skeleton.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databaseSkript/lagdatabasen.sql" beforeDir="false" afterPath="$PROJECT_DIR$/databaseSkript/lagdatabasen.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/DbTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/DbTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hHYWDvBFwjPPoX6bRwMwc9PTGG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager" selected="Batch.build">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="Skeleton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\JDBC(viktig)\full-web-skeleton" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="build.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lagdatabasen.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/databaseSkript/lagdatabasen.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.build" />
+        <item itemvalue="Database Script.lagdatabasen.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="" />
+      <created>1599669514261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599669514261</updated>
+      <workItem from="1599669515324" duration="3424000" />
+      <workItem from="1599728262032" duration="1775000" />
+      <workItem from="1599849376411" duration="249000" />
+      <workItem from="1599849637334" duration="4588000" />
+      <workItem from="1599917826005" duration="598000" />
+      <workItem from="1599923440692" duration="3684000" />
+      <workItem from="1599927392485" duration="54000" />
+      <workItem from="1599927493090" duration="2497000" />
+      <workItem from="1600033732662" duration="23000" />
+      <workItem from="1600033767439" duration="179000" />
+      <workItem from="1600033958607" duration="313000" />
+      <workItem from="1600034663853" duration="727000" />
+      <workItem from="1600178716301" duration="2727000" />
+      <workItem from="1600183614483" duration="102000" />
+      <workItem from="1600183972012" duration="5753000" />
+      <workItem from="1600189794342" duration="2051000" />
+      <workItem from="1600279374904" duration="568000" />
+      <workItem from="1600622151595" duration="21000" />
+      <workItem from="1600622235944" duration="88000" />
+      <workItem from="1600678404003" duration="2069000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="608" y="170" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599923835357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="608" y="170" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599923835357" />
+    <state x="220" y="676" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600622161801">
+      <screen x="0" y="0" width="1080" height="1880" />
+    </state>
+    <state x="220" y="676" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1920.1040/0.0.1080.1880@0.0.1080.1880" timestamp="1600622161801" />
+    <state x="740" y="261" width="573" height="517" key="FileChooserDialogImpl" timestamp="1600271650112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" width="573" height="517" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600271650112" />
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1599923956344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1599923956344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1599923956344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1599923956344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599923785178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1599923785178" />
+    <state x="259" y="216" key="SettingsEditor" timestamp="1600189857889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="259" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600189857889" />
+    <state x="594" y="51" width="1236" height="1027" key="dock-window-1" timestamp="1600179175963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="594" y="51" width="1236" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600179175963" />
+    <state x="551" y="140" key="new project wizard" timestamp="1600271652974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600271652974" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600187608698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600187608698" />
+  </component>
+</project>

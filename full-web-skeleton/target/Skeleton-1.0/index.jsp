@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<h1>Welcome to your skeleton ;.)</h1>
+<p>Herein you will have an example of a servlet handling a query to your mariaDb and display the results in your web browser
+    using payara.
+    This is pretty difficult right?
+</p>
+<p>Click here to send a request for a user.
+    <a href="RequestUserNameFromDb">get user</a></p>
+<p>Click here to add a user.
+    <a href="InsertNewUserToDb">get user</a></p>
+<p>Click here to edit a user.
+    <a href="EditUserInDb">get user</a></p>
+<p>Click here to delete a user.
+    <a href="RemoveUserNameFromDb">get user</a></p>
+</body>
+</html>
