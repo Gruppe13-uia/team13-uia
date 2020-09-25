@@ -84,6 +84,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\t\team13-uia\full-web-skeleton\databaseSkript" />
+    </key>
+  </component>
   <component name="RunManager" selected="Batch.build">
     <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Skeleton" />
@@ -140,7 +145,7 @@
       <workItem from="1600678404003" duration="2664000" />
       <workItem from="1600712538625" duration="3020000" />
       <workItem from="1600727782452" duration="3577000" />
-      <workItem from="1601025685369" duration="287000" />
+      <workItem from="1601025685369" duration="497000" />
     </task>
     <servers />
   </component>
