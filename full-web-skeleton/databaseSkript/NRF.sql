@@ -23,17 +23,17 @@ GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%';
 
 DROP TABLE IF EXISTS `athletes`;
 CREATE TABLE `athletes` (
-  `Athlete_ID` int(11) NOT NULL,
-  `Club_ID` int(11) DEFAULT NULL,
-  `Group_ID` varchar(255) DEFAULT NULL,
-  `Birth_Date` int(11) DEFAULT NULL,
-  `Firstname` varchar(255) DEFAULT NULL,
-  `Lastname` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`Athlete_ID`),
-  KEY `athletes_FK1` (`Club_ID`),
-  KEY `athletes_FK2` (`Group_ID`),
-  CONSTRAINT `athletes_FK1` FOREIGN KEY (`Club_ID`) REFERENCES `clubs` (`Club_ID`),
-  CONSTRAINT `athletes_FK2` FOREIGN KEY (`Group_ID`) REFERENCES `groups` (`Group_ID`)
+    `Athlete_ID` int(11) NOT NULL,
+    `Club_ID` int(11) DEFAULT NULL,
+    `Group_ID` varchar(255) DEFAULT NULL,
+    `Birth_Date` int(11) DEFAULT NULL,
+    `Firstname` varchar(255) DEFAULT NULL,
+    `Lastname` varchar(255) DEFAULT NULL,
+    PRIMARY KEY (`Athlete_ID`),
+    KEY `athletes_FK1` (`Club_ID`),
+    KEY `athletes_FK2` (`Group_ID`),
+    CONSTRAINT `athletes_FK1` FOREIGN KEY (`Club_ID`) REFERENCES `clubs` (`Club_ID`),
+    CONSTRAINT `athletes_FK2` FOREIGN KEY (`Group_ID`) REFERENCES `groups` (`Group_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 # ------------------------------------------------------------
@@ -189,6 +189,23 @@ CREATE TABLE `timesets` (
   `Years` int(11) DEFAULT NULL,
   PRIMARY KEY (`Time_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+# ------------------------------------------------------------
+# SCHEMA DUMP FOR TABLE: User_Info
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `User_Info`;
+CREATE TABLE `User_Info` (
+                             `Athlete_ID` int(11) NOT NULL,
+                             `Email` varchar(255) NOT NULL,
+                             `Password` varchar(255) NOT NULL,
+                             PRIMARY KEY (`Email`),
+                             KEY `User_Info_FK1` (`Athlete_ID`),
+                             CONSTRAINT `User_Info._FK1` FOREIGN KEY (`Athlete_ID`) REFERENCES `athletes` (`Athlete_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: athletes

@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Skeleton" options="-endorseddirs C:\t\team13-uia\full-web-skeleton\target/endorsed" />
+      <module name="Skeleton" options="-endorseddirs C:\team13-uia\full-web-skeleton\target/endorsed" />
     </option>
   </component>
 </project>
