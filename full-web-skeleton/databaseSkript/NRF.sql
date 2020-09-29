@@ -205,7 +205,7 @@ INSERT INTO `classes` (`Class_ID`,`Class`) VALUES (1,'Senior'),(2,'Junior');
 # DATA DUMP FOR TABLE: clubs
 # ------------------------------------------------------------
 
-INSERT INTO `clubs` (`Club_ID`,`Club_Name`) VALUES (1,'Alvøen'),(2,'Bergens'),(3,'BSI'),(4,'Bærum'),(5,'Christiania'),(6,'Drammen'),(7,'Fana'),(8,'Fredrisstad'),(9,'Haldens'),(10,'Horten'),(11,'Kristiansand'),(12,'Moss'),(13,'NSR'),(14,'NTNUI'),(15,'Ormsund'),(16,'Os'),(17,'Porsgrunn'),(18,'Sandefjord'),(19,'Sarpsborg'),(20,'Sjøkrigsskolen'),(21,'Stavanger'),(22,'Trondhjems'),(23,'Tønsberg'),(24,'Aalesunds');
+INSERT INTO `clubs` (`Club_ID`,`Club_Name`) VALUES (1,'Alvøen'),(2,'Bergens'),(3,'BSI'),(4,'Bærum'),(5,'Christiania'),(6,'Drammen'),(7,'Fana'),(8,'Fredriksstad'),(9,'Haldens'),(10,'Horten'),(11,'Kristiansand'),(12,'Moss'),(13,'NSR'),(14,'NTNUI'),(15,'Ormsund'),(16,'Os'),(17,'Porsgrunn'),(18,'Sandefjord'),(19,'Sarpsborg'),(20,'Sjøkrigsskolen'),(21,'Stavanger'),(22,'Trondhjems'),(23,'Tønsberg'),(24,'Aalesunds');
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: genders
