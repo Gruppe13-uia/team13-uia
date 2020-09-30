@@ -8,14 +8,15 @@
 
 
 
+CREATE USER 'admin'@'%' IDENTIFIED BY '12345';
+
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%';
 
 CREATE DATABASE if not EXISTS NRF;
 
 USE NRF;
 
-CREATE USER 'admin'@'%' IDENTIFIED BY '12345';
 
-GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%';
 
 # ------------------------------------------------------------
 # SCHEMA DUMP FOR TABLE: athletes

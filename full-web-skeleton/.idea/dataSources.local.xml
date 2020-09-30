@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MariaDB - @127.0.0.1" uuid="5efce696-034e-41fb-acb3-fbc6427ec5bc">
+    <data-source name="@localhost" uuid="32c78fec-6244-4561-903e-ea645f42e970">
       <database-info product="MariaDB" version="10.5.5-MariaDB-1:10.5.5+maria~focal" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.6.0" dbms="MARIADB" exact-version="10.5.5" exact-driver-version="2.6">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>adrianh</user-name>
+      <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" negative="1" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="NRF" />
+          </node>
         </introspection-scope>
       </schema-mapping>
+    </data-source>
+    <data-source name="admin.NRF" uuid="e5e6c82b-0f65-440f-93c0-a1d6c00b6086">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MARIADB" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>admin</user-name>
+      <schema-mapping />
     </data-source>
   </component>
 </project>
