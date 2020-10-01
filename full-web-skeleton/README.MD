@@ -13,7 +13,7 @@ src/main/webapp/`welcome.jsp`<br>
 
 ## Oppsummert:
 - Satt opp login-funksjon
-- La til HTML sider
+- La til HTML sider.
 
 
 
