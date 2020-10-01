@@ -1,0 +1,14 @@
+docker/file/JAXRSConfiguration.class
+docker/file/JavaEE8Resource.class
+servlets/InsertNewUserToDb.class
+servlets/EditUserInDb.class
+servlets/RequestUserNameFromDb.class
+servlets/RemoveUserNameFromDb.class
+servlets/AddUserToDb.class
+tools/repository/UserRepository.class
+servlets/AbstractAppServlet.class
+servlets/DeleteUserNameFromDb.class
+models/UserModel.class
+servlets/ChangeNameToDb.class
+servlets/ReceiveUserNameFromDb.class
+tools/DbTool.class
