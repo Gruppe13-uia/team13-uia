@@ -1,4 +1,4 @@
-#Endringer i dev_4_01/10/2020:
+# Endringer i dev_4_01/10/2020:
 
 ## Klasser som er lagt til:
 src/main/java/servlets/`CheckLogin`<br>
