@@ -19,17 +19,21 @@ public class UserRepository {
      * @param p    printwriter for å skrive ut html i servlet. F.eks SQL feilmeldinger eller annen info.
      */
 
-    public static void addUser(String user, String lastname, PrintWriter p) {
+    public static void addUser(int Athlete_ID, int Club_ID, String Group_ID, int Birth_Date, String Firstname, String Lastname, PrintWriter p) {
         Connection db = null;
         PreparedStatement insertNewUser = null;
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             String query =
-                    "INSERT INTO otra.student_group (fname, lname) values (?, ?)";
+                    "INSERT INTO NRF.athletes (Athlete_ID, Club_ID, Group_ID, Birth_Date, Firstname, Lastname) values (?, ?, ?, ?, ?, ?)";
 
             insertNewUser = db.prepareStatement(query);
-            insertNewUser.setString(1, user);
-            insertNewUser.setString(2, lastname);
+            insertNewUser.setInt(1, Athlete_ID);
+            insertNewUser.setInt(2, Club_ID);
+            insertNewUser.setString(3, Group_ID);
+            insertNewUser.setInt(4, Birth_Date);
+            insertNewUser.setString(5, Firstname);
+            insertNewUser.setString(6,Lastname);
             insertNewUser.execute();
 
         } catch (SQLException throwables) {

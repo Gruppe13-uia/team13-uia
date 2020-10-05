@@ -1,22 +1,35 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Start Page</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head>
-<body>
-<h1>Welcome to your skeleton ;.)</h1>
-<p>Herein you will have an example of a servlet handling a query to your mariaDb and display the results in your web browser
-    using payara.
-    This is pretty difficult right?
-</p>
-<p>Click here to send a request for a user.
-    <a href="RequestUserNameFromDb">get user</a></p>
-<p>Click here to add a user.
-    <a href="InsertNewUserToDb">get user</a></p>
-<p>Click here to edit a user.
-    <a href="EditUserInDb">get user</a></p>
-<p>Click here to delete a user.
-    <a href="RemoveUserNameFromDb">get user</a></p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="FrontPage_NRF">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Adrian Hammer">
+        <meta name="date" content="9/24/2020">
+        <title>FrontPage_NRF</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="navbar">
+                <img src="https://i.imgur.com/0oFP51J.png" class="logo">
+                <button type="button"onclick="window.location='loginform/LoginForm.html';">Logg inn</button>
+            </div>
+            <div class= content>
+                <small>Velkommen til</small>
+                <h1>Testresultater For<br>Norges Roforbund</h1>
+                <button type="button"onclick="window.location='homepage_demo/homepage_demo.html';">Se Testresultater</button>
+            </div>
+            <!--<div class="sidebar">
+                <img src="https://i.imgur.com/3rIccmG.png" class="menu">-->
+
+            <!--<div class="social-links">
+                <img src="https://i.imgur.com/tlfhcdS.png">
+                <img src="https://i.imgur.com/lQf1OZe.png">
+            </div>
+            <div class="Useful-links">
+                <img src="https://i.imgur.com/JaySMMp.png">
+                <img src="https://i.imgur.com/x34R3kk.png">
+            </div>-->
+        </div>
+    </body>
 </html>

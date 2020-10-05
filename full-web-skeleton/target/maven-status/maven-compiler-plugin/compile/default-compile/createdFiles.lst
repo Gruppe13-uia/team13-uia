@@ -3,7 +3,10 @@ docker/file/JavaEE8Resource.class
 servlets/InsertNewUserToDb.class
 servlets/EditUserInDb.class
 servlets/RequestUserNameFromDb.class
+servlets/Login.class
+tools/repository/LoginDao.class
 servlets/RemoveUserNameFromDb.class
+servlets/CheckLogin.class
 servlets/AddUserToDb.class
 tools/repository/UserRepository.class
 servlets/AbstractAppServlet.class

@@ -32,13 +32,16 @@ public class AddUserToDb extends AbstractAppServlet {
      */
     @Override
     protected void writeBody(HttpServletRequest req, PrintWriter out) {
-        String username = req.getParameter("uname");
-        String lname = req.getParameter("lname");
+        int athlete_ID = Integer.parseInt(req.getParameter("athlete"));
+        int club_id = Integer.parseInt(req.getParameter("club"));
+        String group_id = req.getParameter("group");
+        int birth_date = Integer.parseInt(req.getParameter("birth date"));
+        String firstname = req.getParameter("firstname");
+        String lastname = req.getParameter("lastname");
 
-
-        out.println(username + lname);
-        UserRepository.addUser(username, lname, out);
-        String nameFromDb = UserRepository.getUserName(username,out);
+        out.println(firstname);
+        UserRepository.addUser(athlete_ID, club_id, group_id, birth_date, firstname, lastname, out);
+        String nameFromDb = UserRepository.getUserName(firstname, out);
 
         out.format("<h1> Here is your request: %s</h1", nameFromDb);
 
