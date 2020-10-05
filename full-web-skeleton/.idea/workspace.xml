@@ -28,7 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
+    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +66,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="dev_5_01/10/2020" />
+        <entry key="$PROJECT_DIR$/.." value="dev_6_05/10/2020" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -193,6 +195,7 @@
       <workItem from="1601587371632" duration="113000" />
       <workItem from="1601916740970" duration="3557000" />
       <workItem from="1601920565328" duration="3453000" />
+      <workItem from="1601924625304" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601924146402</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd">
+      <created>1601924668475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601924668475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,10 +332,10 @@
     </state>
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601920614765" />
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600189857889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601924155057">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601924679497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601924155057" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601924679497" />
     <state x="668" y="302" width="322" height="253" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601471046110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

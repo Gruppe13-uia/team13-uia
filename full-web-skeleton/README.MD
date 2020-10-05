@@ -1,4 +1,4 @@
-# Endringer i dev_6_05/10/2020:
+# Endringer i dev_7_05/10/2020:
 
 ## Klasser som er lagt til:
 - ingen
