@@ -28,30 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="La til HTML/CSS kodene">
-      <changelist_data name="Adrianhammer" email="adrianh@uia.no" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/build.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddUserToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddUserToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forgotpassword/forgotpassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forgotpassword/forgotpassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/frontpage/FrontPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/frontpage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginform/LoginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/loginform/LoginForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/AddUserToDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/AddUserToDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/tools/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/tools/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/AddUserToDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/AddUserToDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +50,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="adelh98 &lt;adelh@uia.no&gt;" />
         <option value="Adrianhammer &lt;adrianh@uia.no&gt;" />
         <option value="adelh98 &lt;adelh@uia.no&gt;, adrianhammer &lt;adrianh@uia.no&gt;" />
         <option value="Adrianhammer &lt;adrianh@uia.no&gt; + Adel" />
@@ -133,15 +111,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Database Script.NRF.sql">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,7 +192,7 @@
       <workItem from="1601586613001" duration="730000" />
       <workItem from="1601587371632" duration="113000" />
       <workItem from="1601916740970" duration="3557000" />
-      <workItem from="1601920565328" duration="3257000" />
+      <workItem from="1601920565328" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -232,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601587228046</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd">
+      <created>1601924146402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601924146402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +238,8 @@
     <MESSAGE value="Endret 'README'" />
     <MESSAGE value="La til HTML/CSS kodemappene" />
     <MESSAGE value="La til HTML/CSS kodene" />
-    <option name="LAST_COMMIT_MESSAGE" value="La til HTML/CSS kodene" />
+    <MESSAGE value="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="142" key="#Project_Structure" timestamp="1601470146756">
@@ -338,10 +322,10 @@
     </state>
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601920614765" />
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600189857889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601587322930">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601924155057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601587322930" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601924155057" />
     <state x="668" y="302" width="322" height="253" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601471046110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
