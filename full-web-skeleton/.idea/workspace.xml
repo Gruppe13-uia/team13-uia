@@ -28,8 +28,32 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd">
+    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log.00000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mysql/global_priv.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/global_priv.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mysql/global_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/global_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/forgotpassword/forgotpassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forgotpassword/forgotpassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginform/LoginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/LoginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +90,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="dev_6_05/10/2020" />
+        <entry key="$PROJECT_DIR$/.." value="dev_7_05/10/2020" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -95,6 +119,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -102,17 +127,17 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\t\team13-uia\full-web-skeleton\databaseSkript" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Database Script.NRF.sql">
+  <component name="RunManager" selected="Batch.build">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -127,7 +152,7 @@
     <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Skeleton" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\JDBC(viktig)\full-web-skeleton" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="build.cmd" />
       <option name="PARAMETERS" value="" />
@@ -138,6 +163,7 @@
     <configuration name="NRF.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/databaseSkript/NRF.sql" />
       <script-mode>FILE</script-mode>
+      <data-source id="2cf5ee8f-e477-4416-bcd5-0f9798ba5aa5" />
       <method v="2" />
     </configuration>
     <configuration name="lagdatabasen.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
@@ -145,8 +171,14 @@
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Batch.build" />
+      <item itemvalue="Database Script.lagdatabasen.sql" />
+      <item itemvalue="Database Script.NRF.sql" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.build" />
         <item itemvalue="Database Script.NRF.sql" />
       </list>
     </recent_temporary>
@@ -195,7 +227,12 @@
       <workItem from="1601587371632" duration="113000" />
       <workItem from="1601916740970" duration="3557000" />
       <workItem from="1601920565328" duration="3453000" />
-      <workItem from="1601924625304" duration="633000" />
+      <workItem from="1601924625304" duration="2158000" />
+      <workItem from="1602002963636" duration="183000" />
+      <workItem from="1602003214190" duration="185000" />
+      <workItem from="1602003409590" duration="6123000" />
+      <workItem from="1602090806478" duration="4846000" />
+      <workItem from="1602095703854" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -225,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601924668475</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Redirect og html/css fungerer, oppdatert build.cmd">
+      <created>1601925322395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601925322395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +293,9 @@
     <MESSAGE value="La til HTML/CSS kodemappene" />
     <MESSAGE value="La til HTML/CSS kodene" />
     <MESSAGE value="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
+    <MESSAGE value="Redirect og html/css fungerer, oppdatert build.cmd" />
+    <MESSAGE value="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="142" key="#Project_Structure" timestamp="1601470146756">
@@ -257,11 +303,11 @@
     </state>
     <state x="457" y="142" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1601470146756" />
     <state x="761" y="275" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1601400247392" />
-    <state x="365" y="142" width="991" height="632" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601917129420">
+    <state x="537" y="179" width="991" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602093908520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601471187285" />
-    <state x="365" y="142" width="991" height="632" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601917129420" />
+    <state x="537" y="179" width="991" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602093908520" />
     <state x="608" y="170" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599923835357" />
     <state x="-1155" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1600730429365">
       <screen x="-1920" y="16" width="1920" height="1040" />
@@ -279,43 +325,43 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="115" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1601470312364" />
-    <state x="740" y="261" width="573" height="517" key="FileChooserDialogImpl" timestamp="1601920600193">
+    <state x="848" y="313" width="573" height="517" key="FileChooserDialogImpl" timestamp="1602093907746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601583697065" />
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601920600193" />
+    <state x="848" y="313" key="FileChooserDialogImpl/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602093907746" />
     <state x="740" y="261" width="573" height="517" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600271650112" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1601917142438">
+    <state width="1293" height="140" key="GridCell.Tab.0.bottom" timestamp="1602098477546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.bottom/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600728245923" />
     <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601471255937" />
     <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601581652176" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601917142438" />
+    <state width="1293" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602098477546" />
     <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1601917142438">
+    <state width="1293" height="140" key="GridCell.Tab.0.center" timestamp="1602098477546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.center/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600728245923" />
     <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601471255937" />
     <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601581652176" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601917142438" />
+    <state width="1293" height="140" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602098477546" />
     <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1601917142438">
+    <state width="1293" height="140" key="GridCell.Tab.0.left" timestamp="1602098477546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.left/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600728245923" />
     <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601471255936" />
     <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601581652176" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601917142438" />
+    <state width="1293" height="140" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602098477546" />
     <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1601917142438">
+    <state width="1293" height="140" key="GridCell.Tab.0.right" timestamp="1602098477546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.right/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600728245923" />
     <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601471255937" />
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601581652176" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601917142438" />
+    <state width="1293" height="140" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602098477546" />
     <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599923956344" />
     <state width="237" height="459" key="HiddenNamespacesPopup" timestamp="1601581257413">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -327,23 +373,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601582054133" />
-    <state x="259" y="216" key="SettingsEditor" timestamp="1601920614765">
+    <state x="259" y="216" key="SettingsEditor" timestamp="1602101175353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="259" y="216" key="SettingsEditor/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601920614765" />
+    <state x="259" y="216" key="SettingsEditor/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602101175353" />
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600189857889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601924679497">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601925337108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601924679497" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601925337108" />
+    <state x="859" y="398" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602010928069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="398" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602010928069" />
     <state x="668" y="302" width="322" height="253" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601471046110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="668" y="302" width="322" height="253" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1601471046110" />
-    <state x="-1347" y="177" width="839" height="627" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600728030543">
-      <screen x="-1920" y="16" width="1920" height="1040" />
+    <state x="573" y="161" width="839" height="627" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602011115625">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1347" y="177" width="839" height="627" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600728030543" />
+    <state x="573" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602011115625" />
     <state x="581" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1601584035905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

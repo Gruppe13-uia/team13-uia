@@ -7,27 +7,27 @@
         <meta name="author" content="Adrian Hammer">
         <meta name="date" content="9/24/2020">
         <title>Login Form</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="loginform/style.css">
     </head>
     <body>
         <div class="center"> 
             <h1><img src="https://i.imgur.com/0oFP51J.png" width="300" height="110" alt=""></h1>
-            <form method="post">
+            <form method="post" action="Login">
                 <div class="txt_field">
-                    <input type="text" required>
+                    <input type="text" required name="Username">
                     <span></span>
                     <label>Brukernavn</label>
                 </div>
                 <p>
                 <div class="txt_field">
-                    <input type="password" required>
+                    <input type="password" required name="Password">
                     <span></span>
                     <label>Passord</label>
                 </div>
                 <br>
                 <br>
                 <br>
-                <input type="submit" onclick="window.location='../homepage_demo/homepage_demo.html';" value="Login">
+                <input type="submit" value="Login">
                 <div class="contact_coach">
                     Glemt brukernavn eller passord? <a href="../forgotpassword/forgotpassword.html">kontakt oss! </a>
                 </div>

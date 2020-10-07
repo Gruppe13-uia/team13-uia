@@ -2,6 +2,7 @@ package servlets;
 
 import tools.repository.LoginDao;
 
+import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,32 +17,49 @@ public class Login extends AbstractAppServlet {
     @Override
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        writeResponse(request, response, "Hello!");
 
-        String username = request.getParameter("username");
-        String pass = request.getParameter("pass");
+
+
+        String username = request.getParameter("Username");
+        String pass = request.getParameter("Password");
+
+        PrintWriter out = response.getWriter();
+
 
         LoginDao dao = new LoginDao();
 
-        if(dao.verify(username, pass))
-        {
+
+        if (dao.verify(username, pass, out)) {
             HttpSession session = request.getSession();
-            session.setAttribute("username", username);
-            response.sendRedirect("welcome.jsp");
-        } else
-        {
-            response.sendRedirect("login.jsp");
+            session.setAttribute("Username", username);
+            response.sendRedirect("homepage_demo/homepage_demo.jsp");
+
+        } else {
+            System.out.println("hei");
+
+            response.sendRedirect("LoginForm.jsp");
         }
     }
 
     @Override
-    protected void writeBody(HttpServletRequest req, PrintWriter out) {
-        out.println("<form action='welcome' method='POST'>");
-        out.println("Skriv brukernavn : <input type=\"text\" name=\"uname\"><br>");
-        out.println("Skriv passord : <input type=\"password\" name=\"pass\"><br>");
-        out.println("<input type=\"submit\" value=\"login\">");
-        out.println("</form>");
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        try {
+            this.processRequest(req, resp);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
+
+
+    @Override
+    protected void writeBody(HttpServletRequest req, PrintWriter out) {
+
+    }
+
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -74,11 +92,6 @@ public class Login extends AbstractAppServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
-    }
 
     /**
      * Returns a short description of the servlet.

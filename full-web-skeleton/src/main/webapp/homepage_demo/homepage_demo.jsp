@@ -30,8 +30,8 @@
         <div class="sidebar">
             <img src="https://i.imgur.com/NgCBemF.png" class="search-icon">
             <div class="social-links">
-                <img src="https://i.imgur.com/juxzJR8.png">
-                <img src="https://i.imgur.com/CeZG7gx.png">
+                <img src="https://i.imgur.com/juxzJR8.png" onclick="window.location.href='https://www.facebook.com/norges.roforbund';">
+                <img src="https://i.imgur.com/CeZG7gx.png" onclick="window.location.href='https://www.instagram.com/roforbundet/';">
             </div>
             <img src="https://i.imgur.com/KuKVLMm.png" class="info-icon">
         </div>
@@ -90,14 +90,6 @@
                 slider.style.transform = 'translateX(-50%)'
                 active.style.top = '160px';
             }
-
-
         </script>
-
-
-
-
-
     </body>
-
 </html>
