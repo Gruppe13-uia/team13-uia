@@ -1,21 +1,33 @@
-# Endringer i dev_7_05/10/2020:
+# Endringer i dev_9_08/10/2020:
 
 ## Klasser som er lagt til:
-- ingen
+- src/main/java/tools/repository/`Add` 
+- src/main/java/servlets/AddServlets/`AddClubToDb`
+- src/main/java/servlets/AddServlets/`AddResultsToDb`
+- src/main/java/servlets/AddServlets/`AddTestTypeToDb`
+- src/main/java/servlets/AddServlets/`AddTimeSetsToDb`
+- src/main/java/servlets/AddServlets/`InsertNewAthleteToDb`
+- src/main/java/servlets/AddServlets/`InsertNewClubToDb`
+- src/main/java/servlets/AddServlets/`InsertNewResultsToDb`
+- src/main/java/servlets/AddServlets/`InsertNewTestTypesToDb`
+
+##Nye metoder
+- addAthlete, addClub, addResults, addTestype, addTimeSets.
 
 ## Endringer som er lagt til:
-- Oppdaterte setup.cmd slik at den viser en link til localhost som man kan trykke på
-- Når du kjører build.cmd blir du sendt til frontpage og alle knapper fungerer som de skal og sender
-deg videre til de riktige sidene
+- Lagde en Add klasse der alle add metodene er.
+- Lagde en AddServlets mappe i i servlets der alle add servlet klassene ligger. 
 
 
 ## Bugs:
-- Verifisering
-
+- Ingen som jeg vet om 
 
 ## Bugfixes:
-- Re-directing (Servlet + JSP)
-- "Lime sammen" HTML/css koden til java koden
+
+## Videre:
+- Gjøre add klassen mer dynamisk
+- Reduserer code duplication
+
 
 
 

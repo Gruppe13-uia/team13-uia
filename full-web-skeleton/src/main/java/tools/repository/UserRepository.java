@@ -9,54 +9,16 @@ import java.sql.SQLException;
 import tools.DbTool;
 
 public class UserRepository {
-    /**
-     * legger til bruker til databasen.
-     * Denne er ikke implementert. Her må dere gjerne prøve å lage en egen servlet som kan kommunisere med
-     * denne metoden.
-     *
-     * @param user bruker objekt som inneholder all informasjon om personen.
-     *             Tips: Objektet må instansieres i en servlet før man kaller på addUser().
-     * @param p    printwriter for å skrive ut html i servlet. F.eks SQL feilmeldinger eller annen info.
-     */
-
-    public static void addUser(int Athlete_ID, int Club_ID, String Group_ID, int Birth_Date, String Firstname, String Lastname, PrintWriter p) {
-        Connection db = null;
-        PreparedStatement insertNewUser = null;
-        try {
-            db = DbTool.getINSTANCE().dbLoggIn(p);
-            String query =
-                    "INSERT INTO NRF.athletes (Athlete_ID, Club_ID, Group_ID, Birth_Date, Firstname, Lastname) values (?, ?, ?, ?, ?, ?)";
-
-            insertNewUser = db.prepareStatement(query);
-            insertNewUser.setInt(1, Athlete_ID);
-            insertNewUser.setInt(2, Club_ID);
-            insertNewUser.setString(3, Group_ID);
-            insertNewUser.setInt(4, Birth_Date);
-            insertNewUser.setString(5, Firstname);
-            insertNewUser.setString(6,Lastname);
-            insertNewUser.execute();
-
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        } finally {
-            try {
-                db.close();
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
-            }
-        }
-
-    }
 
     /**
      * henter ut spesifikk person fra databasen
      *
-     * @param username brukerens epost-addresse ("trym@example.com");
+     * @param Firstname brukerens epost-addresse ("trym@example.com");
      * @param p        printwriter see metoden over.
      * @return et String objekt med eposten til brukeren.
      */
 
-    public static String getUserName(String username, PrintWriter p) {
+    public static String getUserName(String Firstname, PrintWriter p) {
         Connection db = null;
         PreparedStatement prepareStatement = null;
 
@@ -66,7 +28,7 @@ public class UserRepository {
             ResultSet rs = null;
             String query = "SELECT fname FROM otra.student_group where fname = ?";
             prepareStatement = db.prepareStatement(query);
-            prepareStatement.setString(1, username);
+            prepareStatement.setString(1, Firstname);
             rs = prepareStatement.executeQuery();
             while (rs.next()) {
                 toReturn = rs.getString(1);

@@ -29,30 +29,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddClubToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddResultsToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddTestTypeToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddTimeSetsToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewAthleteToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewClubToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewResultsToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewTestTypesToDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/repository/Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log.00000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log_control" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/global_priv.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/global_priv.MAD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/global_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/global_priv.MAI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/LoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forgotpassword/forgotpassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forgotpassword/forgotpassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginform/LoginForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/LoginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddUserToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddUserToDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/InsertNewUserToDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,6 +119,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -138,17 +136,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Batch.build">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Skeleton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +220,9 @@
       <workItem from="1602003409590" duration="6123000" />
       <workItem from="1602090806478" duration="4846000" />
       <workItem from="1602095703854" duration="5435000" />
+      <workItem from="1602101196753" duration="574000" />
+      <workItem from="1602175496425" duration="6669000" />
+      <workItem from="1602182444218" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -269,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601925322395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fikset en login funksjon som er veldig veldig sikker og har absolutt ingen sikkerhetsfeil">
+      <created>1602101254663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101254663</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +292,8 @@
     <MESSAGE value="Fikset index.jsp, redirecting av sider med html/css fungerer, oppdaterte build.cmd" />
     <MESSAGE value="Redirect og html/css fungerer, oppdatert build.cmd" />
     <MESSAGE value="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker" />
+    <MESSAGE value="Fikset en login funksjon som er veldig veldig sikker og har absolutt ingen sikkerhetsfeil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset en login funksjon som er veldig veldig sikker og har absolutt ingen sikkerhetsfeil" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="142" key="#Project_Structure" timestamp="1601470146756">
@@ -378,10 +376,10 @@
     </state>
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602101175353" />
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600189857889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601925337108">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602101267637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1601925337108" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602101267637" />
     <state x="859" y="398" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602010928069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -408,10 +406,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="51" width="1236" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600179175963" />
-    <state x="-1230" y="297" key="extract.method.dialog" timestamp="1600712964034">
-      <screen x="-1920" y="16" width="1920" height="1040" />
+    <state x="690" y="281" key="extract.method.dialog" timestamp="1602179879358">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1230" y="297" key="extract.method.dialog/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600712964034" />
+    <state x="690" y="281" key="extract.method.dialog/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602179879358" />
     <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1601922903911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,10 +419,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600271652974" />
-    <state x="-1297" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1600730605834">
-      <screen x="-1920" y="16" width="1920" height="1040" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602180457458">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1297" y="241" width="672" height="678" key="search.everywhere.popup/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600730605834" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602180457458" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600187608698" />
   </component>
 </project>
