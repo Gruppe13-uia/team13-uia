@@ -1,8 +1,8 @@
 # Gruppe 13
 
 ## Medlemmer:
-* Adel Hodzalari
-* Adrian Hammer
-* Dzenet Bero
-* Oskar Testad
-* Ronald Mpararo
+* Adel Hodzalari  adelh@uia.no
+* Adrian Hammer adrianh@uia.no
+* Dzenet Bero dzenetb@uia.no
+* Oskar Testad  oskart@uia.no
+* Ronald Mpararo ronaldm@uia.no
