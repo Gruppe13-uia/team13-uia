@@ -1,32 +1,25 @@
-# Endringer i dev_9_08/10/2020:
+# Endringer i dev_X_08/10/2020:
 
 ## Klasser som er lagt til:
-- src/main/java/tools/repository/`Add` 
-- src/main/java/servlets/AddServlets/`AddClubToDb`
-- src/main/java/servlets/AddServlets/`AddResultsToDb`
-- src/main/java/servlets/AddServlets/`AddTestTypeToDb`
-- src/main/java/servlets/AddServlets/`AddTimeSetsToDb`
-- src/main/java/servlets/AddServlets/`InsertNewAthleteToDb`
-- src/main/java/servlets/AddServlets/`InsertNewClubToDb`
-- src/main/java/servlets/AddServlets/`InsertNewResultsToDb`
-- src/main/java/servlets/AddServlets/`InsertNewTestTypesToDb`
-
-##Nye metoder
-- addAthlete, addClub, addResults, addTestype, addTimeSets.
+- src/main/java/webapp/`AddForm.jsp` 
+- src/main/java/webapp/`AddClubbForm.jsp`
+- src/main/java/webapp/`AddResultsForm.jsp`
 
 ## Endringer som er lagt til:
-- Lagde en Add klasse der alle add metodene er.
-- Lagde en AddServlets mappe i i servlets der alle add servlet klassene ligger. 
+* Lagt til midlertidige sider for 3 av "add" funksjonene
 
 
 ## Bugs:
-- Ingen som jeg vet om 
+- Foreløping ingen
 
 ## Bugfixes:
 
 ## Videre:
 - Gjøre add klassen mer dynamisk
 - Reduserer code duplication
+- Legge til "Testtypes" og "Timesets" sider i HTML/CSS
+- Koble opp HTML/CSS med JAVA funksjonene slik at vi kan teste
+
 
 
 
