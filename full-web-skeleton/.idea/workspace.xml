@@ -28,26 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/AddUserToDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/InsertNewUserToDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/tools/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/tools/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/AddUserToDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/InsertNewUserToDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +89,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="adelh98 &lt;adelh@uia.no&gt;" />
         <option value="Adrianhammer &lt;adrianh@uia.no&gt;" />
+        <option value="adelh98 &lt;adelh@uia.no&gt;" />
         <option value="adelh98 &lt;adelh@uia.no&gt;, adrianhammer &lt;adrianh@uia.no&gt;" />
         <option value="Adrianhammer &lt;adrianh@uia.no&gt; + Adel" />
       </list>
@@ -270,7 +252,8 @@
       <workItem from="1602175496425" duration="6669000" />
       <workItem from="1602182444218" duration="1482000" />
       <workItem from="1602184758663" duration="850000" />
-      <workItem from="1602185626358" duration="1045000" />
+      <workItem from="1602185626358" duration="1410000" />
+      <workItem from="1602187060939" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -314,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602101254663</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lagt til Athlete, Club og Results HTML sider i Skeleton.">
+      <created>1602186816613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602186816613</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +332,8 @@
     <MESSAGE value="Redirect og html/css fungerer, oppdatert build.cmd" />
     <MESSAGE value="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker" />
     <MESSAGE value="Fikset en login funksjon som er veldig veldig sikker og har absolutt ingen sikkerhetsfeil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset en login funksjon som er veldig veldig sikker og har absolutt ingen sikkerhetsfeil" />
+    <MESSAGE value="Lagt til Athlete, Club og Results HTML sider i Skeleton." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagt til Athlete, Club og Results HTML sider i Skeleton." />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="142" key="#Project_Structure" timestamp="1601470146756">
@@ -365,10 +356,10 @@
       <screen x="0" y="0" width="1080" height="1880" />
     </state>
     <state x="220" y="676" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1920.1040/0.0.1080.1880@0.0.1080.1880" timestamp="1600622161801" />
-    <state x="497" y="114" width="1093" height="811" key="CommitChangelistDialog2" timestamp="1602186680918">
+    <state x="497" y="114" width="1093" height="811" key="CommitChangelistDialog2" timestamp="1602186813270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="497" y="114" width="1093" height="811" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602186680918" />
+    <state x="497" y="114" width="1093" height="811" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602186813270" />
     <state x="711" y="145" key="ExecutionTargetDialog" timestamp="1602185441721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -445,11 +436,11 @@
     </state>
     <state x="-1347" y="177" width="839" height="627" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/-1920.16.1920.1040/0.0.1920.1040@-1920.16.1920.1040" timestamp="1600728030543" />
     <state x="573" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602011115625" />
-    <state x="581" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1602185629830">
+    <state x="581" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1602246651649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601469713332" />
-    <state x="581" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602185629830" />
+    <state x="581" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602246651649" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601923148702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
