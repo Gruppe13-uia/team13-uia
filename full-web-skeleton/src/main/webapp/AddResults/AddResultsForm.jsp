@@ -15,89 +15,77 @@
     <meta name="author" content="Adrian Hammer">
     <meta name="date" content="9/24/2020">
     <title>Add Form</title>
+    <link rel="Stylesheet" href="style.css">
 </head>
 <body>
 <div class="center">
     <h1><img src="https://i.imgur.com/0oFP51J.png" width="300" height="110" alt=""></h1>
-    <form method="post" action="Add">
+    <form method="post" action="AddResultsSeniorToDb">
         <div class="FormTitle">
-            <h2>Add Results</h2>
+            <h1>Legg til Resultater</h1>
         </div>
-        <div class="txt_field">
-            <input type="Integer" required value="5000 Watt">
-            <span></span>
-            <label>5000_Watt</label>
+        <div class="box">
+            <select name="Athlete" id="Athlete">
+                <option selected disabled>Velg en utover</option>
+                <option value="Athlete1">Adrian Hammer</option>
+                <option value="Athlete2">Dzenet Bero</option>
+                <option value="Athlete3">Adel Hodzalari</option>
+                <option value="Athlete4">Ronald Mpararo</option>
+                <option value="Athlete5">Oskar Testad</option>
+            </select>
         </div>
-        <p>
+        <br>
+        <br>
         <div class="txt_field">
-            <input type="Text" required value="5000 Tid">
-            <span></span>
-            <label>5000_Tid</label>
+            <input type="Text" placeholder="5000 Watt">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Integer" required value="2000 Watt">
-            <span></span>
-            <label>2000_Watt</label>
+            <input type="Text" placeholder="5000 Tid">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="2000 Tid">
-            <span></span>
-            <label>2000_Tid</label>
+            <input type="Text" placeholder="2000 Watt">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="60 Watt">
-            <span></span>
-            <label>60_Watt</label>
+            <input type="Text" placeholder="2000 Tid">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="Prosent Ligg Ro">
-            <span></span>
-            <label>Prosent_ligg_ro</label>
+            <input type="Text" placeholder="60 Watt">
         </div>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="Sargeant">
-            <span></span>
-            <label>Sargeant</label>
+            <input type="Text" placeholder="Prosent Ligg Ro">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="Bevegelighet">
-            <span></span>
-            <label>Bevegelighet</label>
+            <input type="Text" placeholder="Sargeant">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="Prosent Knebøy">
-            <span></span>
-            <label>Prosent_Knebøy</label>
+            <input type="Text" placeholder="Bevegelighet">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="3000 Sekunder">
-            <span></span>
-            <label>3000_Sek</label>
+            <input type="Text" placeholder="Prosent Knebøy">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="3000 Tid">
-            <span></span>
-            <label>3000_Tid</label>
+            <input type="Text" placeholder="3000 Sekunder">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="Antall Kroppshevinger">
-            <span></span>
-            <label>Kroppsheving</label>
+            <input type="Text" placeholder="3000 Tid">
         </div>
-        <p>
+        <p></p>
         <div class="txt_field">
-            <input type="Text" required value="Total Score">
-            <span></span>
-            <label>Totalscore</label>
+            <input type="Text" placeholder="Antall Kroppshevinger">
+        </div>
+        <p></p>
+        <div class="txt_field">
+            <input type="Text" placeholder="Total Score">
         </div>
 
         <br>

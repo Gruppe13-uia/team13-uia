@@ -69,16 +69,14 @@ public class Add {
         }
     }
 
-    public static void addResults(String Watt5000, String Tid5000, String Watt2000, String tid2000, String Watt60, String Prosent_Ligg_ro, String Sargeant,
-                                  String Bevelighet, String Prosent_Knebøy, String Sekunder3000, String Tid3000, String Antall_Kroppshevinger,
-                                  String Total_score, PrintWriter p) {
+    //"Kilo ligg ro" ikke tatt med
+    public static void addResultsJuniorA(String Watt5000, String Tid5000, String Watt2000, String tid2000, String Watt60, String Prosent_Ligg_ro, String Sargeant, PrintWriter p) {
         Connection db = null;
         PreparedStatement insertNewResult = null;
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             String query =
-                    "INSERT INTO NRF.result (5000_Watt, 5000_Tid, 2000_Watt, 2000_Tid, 60_Watt, Prosent_Ligg_Ro, Sargeant, Bevegelighet, Prosent_Knebøy, " +
-                            "3000_Sekunder, 3000_Tid, Antall_Kroppshevinger, Total_Score) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ,? )";
+                    "INSERT INTO NRF.result (5000_Watt, 5000_Tid, 2000_Watt, 2000_Tid, 60_Watt, Prosent_Ligg_Ro, Sargeant) values (?, ?, ?, ?, ?, ?, ?)";
 
             insertNewResult = db.prepareStatement(query);
             insertNewResult.setString(1, Watt5000);
@@ -88,12 +86,6 @@ public class Add {
             insertNewResult.setString(5, Watt60);
             insertNewResult.setString(6, Prosent_Ligg_ro);
             insertNewResult.setString(7, Sargeant);
-            insertNewResult.setString(8, Bevelighet);
-            insertNewResult.setString(9, Prosent_Knebøy);
-            insertNewResult.setString(10, Sekunder3000);
-            insertNewResult.setString(11, Tid3000);
-            insertNewResult.setString(12, Antall_Kroppshevinger);
-            insertNewResult.setString(13, Total_score);
             insertNewResult.execute();
 
         } catch (SQLException throwables) {
@@ -107,6 +99,95 @@ public class Add {
         }
     }
 
+    //Kilo_ligg_ro og kilo_kneboy ikke med
+    public static boolean addResultsSenior(String Watt5000, String Tid5000, String Watt2000, String Tid2000, String Watt60, String Prosent_Ligg_ro, String prosentKneboy, PrintWriter p) {
+        Connection db = null;
+        PreparedStatement insertNewResult = null;
+        try {
+            db = DbTool.getINSTANCE().dbLoggIn(p);
+            String query =
+                    "INSERT INTO NRF.result (5000_Watt, 5000_Tid, 2000_Watt, 2000_Tid, 60_Watt, Prosent_Ligg_Ro, Prosent_Knebøy) values (?, ?, ?, ?, ?, ?, ?)";
+
+            insertNewResult = db.prepareStatement(query);
+            insertNewResult.setString(1, Watt5000);
+            insertNewResult.setString(2, Tid5000);
+            insertNewResult.setString(3, Watt2000);
+            insertNewResult.setString(4, Tid2000);
+            insertNewResult.setString(5, Watt60);
+            insertNewResult.setString(6, Prosent_Ligg_ro);
+            insertNewResult.setString(7, prosentKneboy);
+            insertNewResult.execute();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            try {
+                db.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+
+
+        }
+        return true;
+    }
+
+    //Kilo_ligg_ro og kilo_kneboy ikke med
+    public static void addResultsJuniorB(String Sek3000, String Tid3000, String Watt2000, String tid2000, String Watt60, String krhev, String Sargeant, PrintWriter p) {
+        Connection db = null;
+        PreparedStatement insertNewResult = null;
+        try {
+            db = DbTool.getINSTANCE().dbLoggIn(p);
+            String query =
+                    "INSERT INTO NRF.result (3000_Sekunder, 3000_Tid, 2000_Watt, 2000_Tid, 60_Watt, Antall_Kroppshevinger, Sargeant) values (?, ?, ?, ?, ?, ?, ?)";
+
+            insertNewResult = db.prepareStatement(query);
+            insertNewResult.setString(1, Sek3000);
+            insertNewResult.setString(2, Tid3000);
+            insertNewResult.setString(3, Watt2000);
+            insertNewResult.setString(4, tid2000);
+            insertNewResult.setString(5, Watt60);
+            insertNewResult.setString(6, krhev);
+            insertNewResult.setString(7, Sargeant);
+            insertNewResult.execute();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            try {
+                db.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
+    }
+
+    //Kilo_ligg_ro og kilo_kneboy ikke med
+    public static void addResultsJuniorC(String Tid3000, String Watt60, String Sargeant, String krhev, PrintWriter p) {
+        Connection db = null;
+        PreparedStatement insertNewResult = null;
+        try {
+            db = DbTool.getINSTANCE().dbLoggIn(p);
+            String query =
+                    "INSERT INTO NRF.result (3000_Tid, 60_Watt, Sargeant, Prosent_Knebøy) values (?, ?, ?, ?, ?, ?, ?)";
+
+            insertNewResult = db.prepareStatement(query);
+            insertNewResult.setString(1, Tid3000);
+            insertNewResult.setString(2, Watt60);
+            insertNewResult.setString(3, Sargeant);
+            insertNewResult.setString(4, krhev);
+            insertNewResult.execute();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            try {
+                db.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
+    }
 
     public static void addTestType(String Ovelse1, String Ovelse2, String Ovelse3, String Ovelse4, String Ovelse5, String Ovelse6,
                                    String Ovelse7, String Ovelse8, PrintWriter p) {

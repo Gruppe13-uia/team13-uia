@@ -56,6 +56,18 @@
                     <a href="#" class="nav-link current">Min side</a>
                 </li>
                 <li class="nav-item">
+                    <a href="../AddAthlete/AddAthleteForm.jsp" class="nav-link">Ny utover</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../AddClub/AddClubForm.jsp" class="nav-link">Ny klubb</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../AddResults/AddResultsForm.jsp" class="nav-link">Nye resultater</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../AddTestType/AddTestTypeForm.jsp" class="nav-link">Ny test</a>
+                </li>
+                <li class="nav-item">
                     <a href="../" class="nav-link">Logg ut</a>
                 </li>
             </ul>

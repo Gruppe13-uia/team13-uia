@@ -20,6 +20,7 @@
 /usr/src/mymaven/src/main/java/servlets/LoginServlets/Login.java
 /usr/src/mymaven/src/main/java/servlets/AddServlets/InsertNewAthleteToDb.java
 /usr/src/mymaven/src/main/java/tools/repository/LoginDao.java
+/usr/src/mymaven/src/main/java/servlets/AddServlets/AddResultsSeniorToDb.java
 /usr/src/mymaven/src/main/java/servlets/LoginServlets/CheckLogin.java
 /usr/src/mymaven/src/main/java/servlets/EditServlets/UpdateClubInDb.java
 /usr/src/mymaven/src/main/java/servlets/AddServlets/AddUserToDb.java
@@ -31,6 +32,5 @@
 /usr/src/mymaven/src/main/java/tools/repository/Get.java
 /usr/src/mymaven/src/main/java/servlets/AddServlets/AddClubToDb.java
 /usr/src/mymaven/src/main/java/servlets/EditServlets/EditClubInDb.java
-/usr/src/mymaven/src/main/java/servlets/AddServlets/AddResultsToDb.java
 /usr/src/mymaven/src/main/java/servlets/AddServlets/InsertNewTestTypesToDb.java
 /usr/src/mymaven/src/main/java/tools/DbTool.java

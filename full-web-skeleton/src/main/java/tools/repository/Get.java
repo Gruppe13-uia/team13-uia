@@ -121,7 +121,7 @@ public class Get {
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             ResultSet rs = null;
-            String query = "SELECT 3000_Sekunder = ?, 3000_TId = ?, 2000_Watt = ?, 2000_Tid = ?, 60_Watt = ?, Antall_Kroppshevinger = ?, Sargeant = ?, FROM NRF.results";
+            String query = "SELECT 3000_Sekunder = ?, 3000_Tid = ?, 2000_Watt = ?, 2000_Tid = ?, 60_Watt = ?, Antall_Kroppshevinger = ?, Sargeant = ?, FROM NRF.results";
             prepareStatement = db.prepareStatement(query);
             prepareStatement.setInt(1, sekunder3000);
             prepareStatement.setInt(2, tid3000);
@@ -149,7 +149,7 @@ public class Get {
             try {
                 db = DbTool.getINSTANCE().dbLoggIn(p);
                 ResultSet rs = null;
-                String query = "SELECT 3000_TId = ?, 2000_Watt = ?, 2000_Tid = ?, 60_Watt = ?, Antall_Kroppshevinger = ?, Sargeant = ?, FROM NRF.results";
+                String query = "SELECT 3000_Tid = ?, 2000_Watt = ?, 2000_Tid = ?, 60_Watt = ?, Antall_Kroppshevinger = ?, Sargeant = ?, FROM NRF.results";
                 prepareStatement = db.prepareStatement(query);
                 prepareStatement.setInt(1, lop3000);
                 prepareStatement.setInt(2, juniorCAntallkrhev);

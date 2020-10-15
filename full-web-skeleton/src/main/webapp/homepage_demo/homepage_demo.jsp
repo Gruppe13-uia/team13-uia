@@ -20,7 +20,7 @@
                         <li><a href="">Øvelser</a></li>
                         <li><a href="../AddResults/AddResultsForm.jsp">Results</a></li>
                         <li><a href="../AddClub/AddClubForm.jsp">Legg til klubb</a></li>
-                        <li><a href="../AddAthlete/AddForm.jsp">Legg til Athlete</a></li>
+                        <li><a href="../AddAthlete/AddAthleteForm.jsp">Legg til Athlete</a></li>
 
                     </ul>
                 </nav>

@@ -12,23 +12,21 @@
     <meta charset="UTF-8">
     <meta name="description" content="FrontPage_NRF">
     <meta name="keywords" content="HTML, CSS">
-    <meta name="author" content="Adrian Hammer">
-    <meta name="date" content="9/24/2020">
+    <meta name="author" content="Adel Hodzalari">
+    <meta name="date" content="10/12/2020">
     <title>Add Form</title>
+    <link rel="Stylesheet" href="style.css">
 </head>
 <body>
 <div class="center">
     <h1><img src="https://i.imgur.com/0oFP51J.png" width="300" height="110" alt=""></h1>
     <form method="post" action="Add">
         <div class="FormTitle">
-            <h2>Add Clubb</h2>
+            <h1>Legg Til Klubb</h1>
         </div>
         <div class="txt_field">
-            <input type="Text" required value="Club Name">
-            <span></span>
-            <label>KlubbNavn</label>
+            <input type="Text" required value="Klubb">
         </div>
-
         <br>
         <input type="submit" value="Legg til">
     </form>
