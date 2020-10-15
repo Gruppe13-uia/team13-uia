@@ -1,8 +1,9 @@
 # Endringer i dev_11_15/10/2020:
 
 ## Klasser som er lagt til:
-- src/main/java/servlets/AddServlets/`AddResultsSeniorToDb`
 
+### Servlets:
+- src/main/java/servlets/AddServlets/`AddResultsSeniorToDb`
 - src/main/java/servlets/EditServlets/`EditAthleteInDb`
 - src/main/java/servlets/EditServlets/`EditClubInDb`
 - src/main/java/servlets/EditServlets/`UpdateAthleteInDb`
@@ -18,15 +19,14 @@
 - src/main/java/servlets/RemoveSerlvets/`RemoveAtheleFromDb`
 - src/main/java/servlets/RemoveSerlvets/`RemoveClubFromDb`
 - src/main/java/servlets/RemoveSerlvets/`RemoveResultsFromDb`
+
+- src/main/java/servlets/TopList/`TopList`
+- src/main/java/servlets/TopList/`TopListServlet
+
+### Tools:
 - src/main/java/tools/repository/`Delete`
 - src/main/java/tools/repository/`Edit`
 - src/main/java/tools/repository/`Get`
-
-- src/main/java/servlets/TopList/`TopList`
-- src/main/java/servlets/TopList/`TopListServlet`
-
-- src/main/java/webapp/`AddClubbForm.jsp`
-- src/main/java/webapp/`AddResultsForm.jsp`
 
 ## Endringer som er lagt til:
 * Lagt til de nye HTML/CSS "add" sidene
