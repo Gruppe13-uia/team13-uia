@@ -39,6 +39,7 @@
 - MUULIG noen (Jobber med saken)
 
 ## Bugfixes:
+- en bug som førte til feil side fra index til loginform.jsp
 
 ## Videre:
 - Gjøre add klassen mer dynamisk
