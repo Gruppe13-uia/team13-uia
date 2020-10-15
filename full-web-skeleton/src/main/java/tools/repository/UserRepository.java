@@ -60,7 +60,6 @@ public class UserRepository {
             edituserdb.setString(5, username);
             edituserdb.execute();
 
-
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         } finally {
@@ -69,7 +68,6 @@ public class UserRepository {
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
             }
-
         }
     }
 

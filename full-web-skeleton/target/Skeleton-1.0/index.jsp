@@ -5,19 +5,19 @@
         <meta name="keywords" content="HTML, CSS">
         <meta name="author" content="Adrian Hammer">
         <meta name="date" content="9/24/2020">
-        <title>FrontPage_NRF</title>
+        <title>Norges Roforbund | Forside </title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="hero">
             <div class="navbar">
                 <img src="https://i.imgur.com/0oFP51J.png" class="logo">
-                <button type="button"onclick="window.location='LoginForm.jsp';">Logg inn</button>
+                <button type="button"onclick="window.location='loginform/LoginForm.jsp';">Logg inn</button>
             </div>
             <div class= content>
                 <small>Velkommen til</small>
                 <h1>Testresultater For<br>Norges Roforbund</h1>
-                <button type="button"onclick="window.location='homepage_demo/homepage_demo.jsp';">Se Testresultater</button>
+                <button type="button"onclick="window.location='hjemmeside/index.jsp';">Se Testresultater</button>
             </div>
             <!--<div class="sidebar">
                 <img src="https://i.imgur.com/3rIccmG.png" class="menu">-->

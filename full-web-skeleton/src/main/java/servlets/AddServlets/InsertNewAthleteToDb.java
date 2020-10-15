@@ -19,6 +19,7 @@ public class InsertNewAthleteToDb extends AbstractAppServlet {
         writeResponse(request, response, "Servlet");
     }
 
+    //Writebody må oppdateres. Er generisk fra start. Har bare ikke endra enda.
     @Override
     protected void writeBody(HttpServletRequest req, PrintWriter out) {
         out.println("<h1>Add someone to the database :-)</h1>");
