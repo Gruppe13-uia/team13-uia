@@ -28,173 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/EditServlets/EditClubInDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/EditServlets/UpdateClubInDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveServlets/DeleteClubFromDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveServlets/DeleteResultFromDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveServlets/RemoveClubFromDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveServlets/RemoveResultFromDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/Toplist/TopList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/Toplist/TopListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/repository/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/repository/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/repository/Get.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/934f9edefc68f0cf33a855455e71fdaa.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/BACKGROUND.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/BACKGROUND_FOOTER.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/FACEBOOK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/Gyazo-4.1.3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/INFO_ICON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/INSTAGRAM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/LOGO uten tekst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/LOGO_MED_TEKST.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/PROFILBILDE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/SEARCH ICON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/camping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/goldmedal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/hiking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/olavtufte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/stars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/testimonials-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/trening.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-large-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-medium-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-small-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/MinSide.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/934f9edefc68f0cf33a855455e71fdaa.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/BACKGROUND.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/BACKGROUND_FOOTER.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/FACEBOOK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/Gyazo-4.1.3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/INFO_ICON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/INSTAGRAM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/LOGO uten tekst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/LOGO_MED_TEKST.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/PROFILBILDE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/SEARCH ICON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/camping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/goldmedal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/hiking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/olavtufte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/stars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/testimonials-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/trening.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-large-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-medium-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-small-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Testresultater.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/934f9edefc68f0cf33a855455e71fdaa.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/BACKGROUND.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/BACKGROUND_FOOTER.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/FACEBOOK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/Gyazo-4.1.3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/INFO_ICON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/INSTAGRAM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/LOGO uten tekst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/LOGO_MED_TEKST.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/PROFILBILDE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/SEARCH ICON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/camping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/goldmedal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/hiking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/olavtufte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/stars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/testimonials-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/trening.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/wave-large-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/wave-large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/wave-medium-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/wave-medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/wave-small-reversed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/Bilder/wave-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/TopList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/TopList/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/hjemmeside/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Skeleton.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/User_Info.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/User_Info.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/athletes.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/athletes.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/athletes.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/athletes.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/classes.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/classes.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/classes.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/classes.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/clubs.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/clubs.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/clubs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/clubs.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/genders.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/genders.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/genders.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/genders.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/groups.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/groups.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/groups.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/groups.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/ranks.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/ranks.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/ranks.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/ranks.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/results.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/results.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/results.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/results.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/testregisters.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/testregisters.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/testregisters.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/testregisters.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/testsets.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/testsets.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/testsets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/testsets.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/testtypes.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/testtypes.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/testtypes.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/testtypes.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/timesets.frm" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/timesets.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/timesets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/timesets.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/NRF/user_info.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/NRF/user_info.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log.00000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/database/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewAthleteToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewAthleteToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewClubToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewClubToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewResultsToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewResultsToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewTestTypesToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewTestTypesToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/ChangeNameToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/EditServlets/EditAthleteInDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CheckLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/LoginServlets/CheckLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/DeleteUserNameFromDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveServlets/DeleteAthleteFromDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/EditUserInDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/EditServlets/UpdateAthleteInDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/LoginServlets/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/ReceiveUserNameFromDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/GetServlets/GetAthleteFromDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/RemoveUserNameFromDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/RemoveServlets/RemoveAthleteFromDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/RequestUserNameFromDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/GetServlets/RequestAthleteFromDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/LoginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/loginform/LoginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/ChangeNameToDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/DeleteUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/EditUserInDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/ReceiveUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/RemoveUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/servlets/RequestUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/tools/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/WEB-INF/classes/tools/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/ChangeNameToDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/DeleteUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/EditUserInDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/ReceiveUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/RemoveUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/RequestUserNameFromDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Lagt forskjellige get, edit og delete klasser. Laget servlets for alle metodene. Fikset hjemmesiden og diverse andre sider slik at dere kan lime inn koden deres der. Navbar funker på alle sidene." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,17 +124,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Batch.build">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Skeleton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -385,7 +208,7 @@
       <workItem from="1602581919681" duration="1377000" />
       <workItem from="1602677453865" duration="111000" />
       <workItem from="1602677667323" duration="10705000" />
-      <workItem from="1602760455790" duration="8231000" />
+      <workItem from="1602760455790" duration="8683000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -436,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602186816613</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lagt forskjellige get, edit og delete klasser. Laget servlets for alle metodene. Fikset hjemmesiden og diverse andre sider slik at dere kan lime inn koden deres der. Navbar funker på alle sidene.">
+      <created>1602768954259</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602768954259</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +294,8 @@
     <MESSAGE value="Fikset en enkel og veldig veldig sikker login funksjon som er absolutt er sikker" />
     <MESSAGE value="Fikset en login funksjon som er veldig veldig sikker og har absolutt ingen sikkerhetsfeil" />
     <MESSAGE value="Lagt til Athlete, Club og Results HTML sider i Skeleton." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lagt til Athlete, Club og Results HTML sider i Skeleton." />
+    <MESSAGE value="Lagt forskjellige get, edit og delete klasser. Laget servlets for alle metodene. Fikset hjemmesiden og diverse andre sider slik at dere kan lime inn koden deres der. Navbar funker på alle sidene." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagt forskjellige get, edit og delete klasser. Laget servlets for alle metodene. Fikset hjemmesiden og diverse andre sider slik at dere kan lime inn koden deres der. Navbar funker på alle sidene." />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="142" key="#Project_Structure" timestamp="1601470146756">
@@ -549,10 +380,10 @@
     </state>
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602101175353" />
     <state x="259" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600189857889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602101267637">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602768977854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602101267637" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-6.1920.1040@0.0.1920.1040" timestamp="1602768977854" />
     <state x="859" y="398" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602010928069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
