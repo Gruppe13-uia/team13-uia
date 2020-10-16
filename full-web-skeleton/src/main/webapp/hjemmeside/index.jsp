@@ -23,7 +23,7 @@
             <nav>
                 <div class="nav-brand">
                     <a href="index.jsp">
-                        <img src="Bilder/LOGO uten tekst.png">
+                        <img src="../img/LOGO%20uten%20tekst.png">
                     </a>
                 </div>
 
@@ -120,7 +120,7 @@
                         <i class="icon ion-md-quote"></i>
                     </div>
                     <div class="testimonial-customer">
-                        <img src="Bilder/olavtufte.jpg" alt="">
+                        <img src="../img/olavtufte.jpg" alt="">
                         <h1>Olav Tufte</h1>
                     </div>
                 </div>
