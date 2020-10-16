@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="experience-outdoors">
+        <section class="see-lists-boxes">
             <div class="container">
                 <div class="title-heading">
                     <h3>Se</h3>
@@ -81,19 +81,19 @@
 
                 <div class="activities-grid">
                     <!-- grid item #1 -->
-                    <div class="activities-grid-item star-gazing">
+                    <div class="activities-grid-item Toplist-mix">
                         <i class="icon ion-md-star"></i>
                             <h1>Topplister blandet</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
                     <!-- grid item #2 -->
-                    <div class="activities-grid-item hiking">
+                    <div class="activities-grid-item Toplist-men">
                         <i class="icon ion-md-man"></i>
                             <h1>Topplister menn</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
                     <!-- grid item #3 -->
-                    <div class="activities-grid-item camping">
+                    <div class="activities-grid-item Toplist-women">
                         <i class="icon ion-md-woman"></i>
                             <h1>Topplister kvinner</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -127,7 +127,7 @@
             </div>
         </section>
 
-        <section class="begin-adventure">
+        <section class="Visit">
             <div class="container">
                 <div class="title-heading">
                     <h3></h3>
@@ -137,15 +137,15 @@
 
                 </div>
 
-                <div class="adventure-grid">
+                <div class="visit-grid">
                     <!--Adventure grid item #1-->                    
-                    <div class="adventure-grid-item">
+                    <div class="visit-grid-item">
                             <p>
                             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
                         </p>
                     </div>
                     <!--Adventure grid item #2-->                    
-                    <div class="adventure-grid-item">
+                    <div class="visit-grid-item">
                         <p>
                         Lorem ipsum dolor sit amet, consecteur adipiscing elit.
                     </p>

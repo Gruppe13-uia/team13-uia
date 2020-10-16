@@ -29,102 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Lagt forskjellige get, edit og delete klasser. Laget servlets for alle metodene. Fikset hjemmesiden og diverse andre sider slik at dere kan lime inn koden deres der. Navbar funker på alle sidene.">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AddAthlete/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AddClub/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AddResults/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AddTestType/AddTestTypeForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/AddTestType/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/LeggTil/LeggTil.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddResultsToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/AddResultsSeniorToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewResultsToDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/AddServlets/InsertNewResultsToDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/repository/Get.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/repository/Get.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddAthlete/AddForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AddAthlete/AddAthleteForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddClub/AddClubForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AddClub/AddClubForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/AddResults/AddResultsForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/AddResults/AddResultsForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/934f9edefc68f0cf33a855455e71fdaa.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/BACKGROUND.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/BACKGROUND.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/BACKGROUND_FOOTER.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/BACKGROUND_FOOTER.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/FACEBOOK.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/FACEBOOK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/Gyazo-4.1.3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/INFO_ICON.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/INFO_ICON.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/INSTAGRAM.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/INSTAGRAM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/LOGO uten tekst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/LOGO uten tekst.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/LOGO_MED_TEKST.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/LOGO_MED_TEKST.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/PROFILBILDE.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/PROFILBILDE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/SEARCH ICON.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/SEARCH ICON.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/camping.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/camping.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/goldmedal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/goldmedal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/hiking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/hiking.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/olavtufte.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/olavtufte.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/profile-pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/profile-pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/stars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/stars.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/testimonials-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/testimonials-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/trening.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/trening.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-large-reversed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/wave-large-reversed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/wave-large.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-medium-reversed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/wave-medium-reversed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-medium.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/wave-medium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-small-reversed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/wave-small-reversed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/Bilder/wave-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/wave-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/MinSide.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/MinSide.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/934f9edefc68f0cf33a855455e71fdaa.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/BACKGROUND.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/BACKGROUND_FOOTER.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/FACEBOOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/Gyazo-4.1.3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/INFO_ICON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/INSTAGRAM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/LOGO uten tekst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/LOGO_MED_TEKST.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/PROFILBILDE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/SEARCH ICON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/camping.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/goldmedal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/hiking.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/olavtufte.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/profile-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/stars.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/testimonials-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/trening.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-large-reversed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-large.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-medium-reversed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-small-reversed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Bilder/wave-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/934f9edefc68f0cf33a855455e71fdaa.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/BACKGROUND.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/BACKGROUND_FOOTER.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/FACEBOOK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/Gyazo-4.1.3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/INFO_ICON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/INSTAGRAM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/LOGO uten tekst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/LOGO_MED_TEKST.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/PROFILBILDE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/SEARCH ICON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/camping.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/goldmedal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/hiking.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/olavtufte.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/profile-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/stars.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/testimonials-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/trening.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/wave-large-reversed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/wave-large.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/wave-medium-reversed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/wave-medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/wave-small-reversed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/Bilder/wave-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homepage_demo/homepage_demo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hjemmeside/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hjemmeside/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +166,18 @@
       <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\Testresultater" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Batch.build">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Skeleton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,7 +201,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -345,6 +264,7 @@
       <workItem from="1602677667323" duration="10705000" />
       <workItem from="1602760455790" duration="8683000" />
       <workItem from="1602770656203" duration="8871000" />
+      <workItem from="1602856783298" duration="1089000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>
@@ -406,20 +326,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp" />

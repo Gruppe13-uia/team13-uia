@@ -170,8 +170,8 @@ nav{
     background-color: #04619f;
 }
 
-/* experience the outdoors */
-.experience-outdoors{
+/* see lists boxes */
+.see-lists-boxes{
     padding: 0;
 }
 
@@ -228,15 +228,15 @@ nav{
     z-index: -1;
 }
 
-.star-gazing{
+.Toplist-mix{
     background: url("../img/goldmedal.jpg") center no-repeat;
 }
 
-.hiking{
+.Toplist-men{
     background: url("../img/hiking.jpg") center no-repeat;
 }
 
-.camping{
+.Toplist-women{
     background: url("../img/camping.jpg") center no-repeat;
 }
 
@@ -307,8 +307,8 @@ nav{
     border: 3px solid #04619f;
 }
 
-/* Begin adventures */
-.adventure-grid{
+/* visit */
+.visit-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
