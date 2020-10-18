@@ -29,10 +29,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb77b49-a64e-42d6-b4f5-dbe6fbb009c7" name="Default Changelist" comment="Lagt forskjellige get, edit og delete klasser. Laget servlets for alle metodene. Fikset hjemmesiden og diverse andre sider slik at dere kan lime inn koden deres der. Navbar funker på alle sidene.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ClubView/ClubView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ClubView/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log.00000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/database/aria_log_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/database/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/database/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/LeggTil/LeggTil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/LeggTil/LeggTil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/MinSide.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/MinSide.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MinSide/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MinSide/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/Testresultater.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/Testresultater.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Testresultater/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Testresultater/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/TopList/TopList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/TopList/TopList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/TopList/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/TopList/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hjemmeside/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/hjemmeside/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hjemmeside/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Skeleton-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Skeleton-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +104,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -142,7 +160,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/AddTestType" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/ClubView" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -151,19 +169,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\Testresultater" />
-      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\TopList" />
-      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\loginform" />
-      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\hjemmeside" />
-      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\ClubView" />
       <recent name="C:\Users\SARAH-X2\Documents\Skole\ITBACIT2\team13-uia\full-web-skeleton\src\main\webapp\AddTestType" />
       <recent name="C:\Users\SARAH-X2\Documents\Skole\ITBACIT2\team13-uia\full-web-skeleton\src\main\webapp\AddResults" />
       <recent name="C:\Users\SARAH-X2\Documents\Skole\ITBACIT2\team13-uia\full-web-skeleton\src\main\webapp\AddClub" />
       <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\MinSide" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\ClubView" />
       <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\Testresultater" />
+      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\TopList" />
+      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\loginform" />
+      <recent name="C:\team13-uia\full-web-skeleton\src\main\webapp\hjemmeside" />
     </key>
   </component>
   <component name="RunManager" selected="Batch.build">
@@ -264,7 +282,9 @@
       <workItem from="1602677667323" duration="10705000" />
       <workItem from="1602760455790" duration="8683000" />
       <workItem from="1602770656203" duration="8871000" />
-      <workItem from="1602856783298" duration="1089000" />
+      <workItem from="1602856783298" duration="1753000" />
+      <workItem from="1602935713441" duration="2845000" />
+      <workItem from="1603021754828" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="Lagt til Login, CheckLogin, LoginDao, login.jsp, welcome.jsp">
       <created>1601582265153</created>

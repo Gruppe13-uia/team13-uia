@@ -1,6 +1,14 @@
 <%--
   Created by IntelliJ IDEA.
   User: adria
+  Date: 10/18/2020
+  Time: 2:49 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: adria
   Date: 10/15/2020
   Time: 1:50 PM
   To change this template use File | Settings | File Templates.
@@ -8,21 +16,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Norges Roforbund | Min Side</title>
-<!--Ion Icons-->
-<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Norges Roforbund | Testresultater </title>
+    <!--Ion Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--Google Fonts-->
-<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
@@ -31,7 +38,7 @@
     <div class="container">
         <nav>
             <div class="nav-brand">
-                <a href="MinSide.jsp">
+                <a href="ClubView.jsp.jsp">
                     <img src="../TopList/Bilder/LOGO%20uten%20tekst.png">
                 </a>
             </div>
@@ -48,7 +55,7 @@
                     <a href="../hjemmeside/index.jsp" class="nav-link">Hjem</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../ClubView/ClubView.jsp" class="nav-link">Klubboversikt</a>
+                    <a href="../ClubView/ClubView.jsp" class="nav-link current">Klubboversikt</a>
                 </li>
                 <li class="nav-item">
                     <a href="../Testresultater/Testresultater.jsp" class="nav-link">Testresultater</a>
@@ -57,20 +64,8 @@
                     <a href="../TopList/TopList.jsp" class="nav-link">Topplister</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link current">Min side</a>
+                    <a href="../MinSide/MinSide.jsp" class="nav-link">Min side</a>
                 </li>
-                <!--<li class="nav-item">
-                    <a href="../AddAthlete/AddAthleteForm.jsp" class="nav-link">Ny utover</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../AddClub/AddClubForm.jsp" class="nav-link">Ny klubb</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../AddResults/AddResultsForm.jsp" class="nav-link">Nye resultater</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../AddTestType/AddTestTypeForm.jsp" class="nav-link">Ny test</a>
-                </li>-->
                 <li class="nav-item">
                     <a href="../" class="nav-link">Logg ut</a>
                 </li>
@@ -81,24 +76,11 @@
 
 <main>
 
-    <div class="sidebar">
-        <div class="profile_info">
-            <img src="../img/profile-pic.jpg" class="profile_image" alt="">
-            <h1>Ola Nordmann</h1>
-        </div>
-        <a href="#"><i class="fas fa-desktop"></i><span>Nyheter</span></a>
-        <a href="#"><i class="far fa-edit"></i><span>Oppdater</span></a>
-        <a href="../LeggTil/LeggTil.jsp"><i class="fas fa-plus"></i><span>Legg til</span></a>
-        <a href="#"><i class="fas fa-minus"></i><span>Fjern</span></a>
-        <a href="#"><i class="fas fa-running"></i><span>Utøver informasjon</span></a>
-        <a href="#"><i class="fas fa-sliders-h"></i><span>Innstillinger</span></a>
-    </div>
-
     <section class="hero">
         <div class="container">
             <div class="main-message">
-                <h3>Hei, </h3>
-                <h1>Velkommen tilbake</h1>
+                <h3>Velkommen til </h3>
+                <h1>Klubboversikt</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -109,6 +91,7 @@
 </main>
 
 <footer>
+
     <div class="footer">
         <div class="inner_footer">
             <div class="logo_container">
@@ -148,10 +131,11 @@
                 <img src="https://i.imgur.com/O8aRgsd.png" onclick="window.location.href='https://www.instagram.com/roforbundet/';">-->
             </div>
 
-            <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
+    <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
 </footer>
 
 <script type="text/javascript" src="scripts.js"></script>
 
 </body>
 </html>
+

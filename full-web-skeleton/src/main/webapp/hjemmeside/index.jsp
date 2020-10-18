@@ -39,6 +39,9 @@
                         <a href="#" class="nav-link current">Hjem</a>
                     </li>
                     <li class="nav-item">
+                        <a href="../ClubView/ClubView.jsp" class="nav-link">Klubboversikt</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="../Testresultater/Testresultater.jsp" class="nav-link">Testresultater</a>
                     </li>
                     <li class="nav-item">
@@ -116,7 +119,7 @@
                 <div class="testimonial">
                     <h1></h1>
                     <div class="testimonial-text-box">
-                        <p>Jævlig kul nettside gutta</p>
+                        <p>Heftig nettside gutta</p>
                         <i class="icon ion-md-quote"></i>
                     </div>
                     <div class="testimonial-customer">
@@ -131,7 +134,7 @@
             <div class="container">
                 <div class="title-heading">
                     <h3></h3>
-                    <h1>Besøk oss på Facebook eller instagram</h1>
+                    <h1>Sjekk oss ut her!</h1>
                     <a href="https://www.facebook.com/norges.roforbund" class="fa fa-facebook"></a>
                     <a href="https://www.instagram.com/roforbundet/" class="fa fa-instagram"></a>
 
