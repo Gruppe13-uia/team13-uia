@@ -1,19 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: adria
-  Date: 10/18/2020
-  Time: 2:49 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: adria
-  Date: 10/15/2020
-  Time: 1:50 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -86,53 +71,209 @@
                 </p>
             </div>
         </div>
+        <div class ="dropdown">
+            <button class ="dropbtn">Klubber</button>
+            <div class ="dropdown-content">
+                <a href = "#K1">Alvøen</a>
+                <a href = "#K2">Bergens</a>
+                <a href = "#K3">BSI</a>
+                <a href = "#K4">Bærum</a>
+                <a href = "#K5">Christiania</a>
+                <a href = "#K6">Drammen</a>
+                <a href = "#K7">Fana</a>
+                <a href = "#K8">Fredrikstad</a>
+                <a href = "#K9">Haldens</a>
+                <a href = "#K10">Horten</a>
+                <a href = "#K11">Kristiansand</a>
+                <a href = "#K12">Moss</a>
+                <a href = "#K13">NSR</a>
+                <a href = "#K14">NTNUI</a>
+                <a href = "#K15">Ormsund</a>
+                <a href = "#K16">Os</a>
+                <a href = "#K17">Porsgrunn</a>
+                <a href = "#K18">Sandefjord</a>
+                <a href = "#K19">Sarpsborg</a>
+                <a href = "#K20">Sjøkrigsskolen</a>
+                <a href = "#K21">Stavanger</a>
+                <a href = "#K22">Trondhjems</a>
+                <a href = "#K23">Tønsberg</a>
+                <a href = "#K24">Aalesunds</a>
+
+            </div>
+        </div>
+        
+        <div id = "Alvøen">
+            <h1>Alvøen</h1>
+            <img id = "K1" src ="../img/Alvøen.jpg" alt="Alvøen">
+            <h3>Alvøengate 25, 1293, Alvøen</h3>
+            <h3>Tlf: 17 28 83 91</h3>
+        </div>
+       
+        <div id = "Bergens">
+            <h1>Bergens</h1>
+            <img id = "K2" src ="../img/Bergens.jpg" alt="Bergens">
+            <h3>Bergen 25, 1927, Bergen</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+        
+        <div id = "BSI">
+            <h1>BSI</h1>
+            <img id = "K3" src ="../img/BSI.png" alt="BSI">
+            <h3>BSI 12, 9731, BSI</h3>
+            <h3>Tlf: 37 83 72 13</h3>
+        </div>
+        
+        <div id = "Bærum">
+            <h1>Bærum</h1>
+            <img id = "K4" src ="../img/Bærum.jpg" alt="Bærum">
+            <h3>Sandvika 19, 1342, Bærum </h3>
+            <h3>Tlf: 17 28 83 91</h3>
+        </div>
+        
+        <div id = "Christiania">
+            <h1>Christiania</h1>
+            <img id = "K5" src ="../img/Christiania.jpg" alt="Christiania">
+            <h3>Christiania 14, 1863 Oslo</h3>
+            <h3>Tlf: 73 71 64 51</h3>
+        </div>
+       
+        <div id = "Drammen">
+            <h1>Drammen</h1>
+            <img id = "K6" src ="../img/Drammen.png" alt="Drammen">
+            <h3>Drammen 13, 1937 Drammen</h3>
+            <h3>Tlf: 16 73 91 27</h3>
+        </div>
+
+        <div id = "Fana">
+            <h1>Fana</h1>
+            <img id = "K7" src ="../img/Fana.png" alt="Fana">
+            <h3>Fana 28, 1827, Fana</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Fredrikstad">
+            <h1>Fredrikstad</h1>
+            <img id = "K8" src ="../img/Fredrikstad.jpg" alt="Fredrikstad">
+            <h3>Fredrikstad 25, 1927, Fredrikstad</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Haldens">
+            <h1>Haldens</h1>
+            <img id = "K9" src ="../img/Haldens.jpg" alt="Haldens">
+            <h3>Haldens 25, 1927, Haldens</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Horten">
+            <h1>Horten</h1>
+            <img id = "K10" src ="../img/Horten.jpg" alt="Horten">
+            <h3>Horten 25, 1927, Horten</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Kristiansand">
+            <h1>Kristiansand</h1>
+            <img id = "K11" src ="../img/Kristiansand.png" alt="Kristiansand">
+            <h3>Kristiansand 25, 1927, Kristiansand</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Moss">
+            <h1>Moss</h1>
+            <img id = "K12" src ="../img/Moss.png" alt="Moss">
+            <h3>Moss 25, 1927, Moss</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "NSR">
+            <h1>NSR</h1>
+            <img id = "K13" src ="../img/NSR.png" alt="NSR">
+            <h3>NSR 25, 1927, NSR</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "NTNUI">
+            <h1>NTNUI</h1>
+            <img id = "K14" src ="../img/NTNUI.png" alt="NTNUI">
+            <h3>Bergen 25, 1927, Bergen</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Ormsund">
+            <h1>Ormsund</h1>
+            <img id = "K15" src ="../img/Ormsund.jpg" alt="NTNUI">
+            <h3>Ormsund 25, 1927, Ormsund</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Os">
+            <h2>Os</h2>
+            <img id = "K16" src ="../img/Os.jpg" alt="Os">
+            <h5>Os 25, 1927, Os</h5>
+            <h5>Tlf: 29 38 37 17</h5>
+        </div>
+
+        <div id = "Porsgrunn">
+            <h1>Porsgrunn</h1>
+            <img id = "K17" src ="../img/porsgrunn.jpg" alt="Porsgrunn">
+            <h3>Porsgrunn 25, 1927, Porsgrunn</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Sandefjord">
+            <h1>Sandefjord</h1>
+            <img id = "K18" src ="../img/Sandefjord.png" alt="Sandefjord">
+            <h3>Sandefjord 25, 1927, Sandefjord</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Sarpsborg">
+            <h1>Sarpsborg</h1>
+            <img id = "K19" src ="../img/Sarpsborg.jpg" alt="Sarpsborg">
+            <h3>Sarpsborg 25, 1927, Sarpsborg</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Sjøkrigsskolen">
+            <h1>Sjøkrigsskolen</h1>
+            <img id = "K20" src ="../img/Sjkrigsskolen.png" alt="Sjøkrigsskolen">
+            <h3>Sjøkrigsskolen 25, 1927, Sjøkrigsskolen</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Stavanger">
+            <h1>Stavanger</h1>
+            <img id = "K21" src ="../img/Stavanger.png" alt="Stavanger">
+            <h3>Stavanger 25, 1927, Stavanger</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Trondhjems">
+            <h1>Trondhjems</h1>
+            <img id = "K22" src ="../img/Trondhjems.jpg" alt="Trondhjems">
+            <h3>Trondhjems 25, 1927, Trondhjems</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Tønsberg">
+            <h1>Tønsberg</h1>
+            <img id = "K23" src ="../img/Tønsberg.png" alt="Tønsberg">
+            <h3>Tønsberg 25, 1927, Tønsberg</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
+
+        <div id = "Aalesunds">
+            <h1>Aalesunds</h1>
+            <img id = "K24" src ="../img/Aalesunds.jpg" alt="Aalesunds">
+            <h3>Aalesunds 25, 1927, Aalesunds</h3>
+            <h3>Tlf: 29 38 37 17</h3>
+        </div>
     </section>
 
 </main>
 
-<footer>
 
-    <div class="footer">
-        <div class="inner_footer">
-            <div class="logo_container">
-                <img src="https://i.imgur.com/ULmMtIH.png">
-            </div>
-
-            <div class="footer_third">
-                <h1>Kontakt</h1>
-                <br>
-                <a href="https://www.roing.no/">Norges Roforbund</a>
-                <br>
-                <a href="https://tinyurl.com/y6fjo9al">Sognsveien 73</a>
-                <a href="https://tinyurl.com/y6fjo9al">0854 Oslo</a>
-                <br>
-                <a href="#">Mail: roing@nif.idrett.no</a>
-                <a href="#">Telefon: 21029090</a>
-                <br>
-                <a href="#">Orgnr: 934 521 013</a>
-                <br>
-                <a href="#">Kontonr: 5134.06.06152</a>
-            </div>
-
-            <div class="footer_third">
-                <h1>Roforbundet</h1>
-                <br>
-                <a href="https://nordicrowing.com/">Nordisk Roforbund</a>
-                <a href="http://www.worldrowing.com/">FISA</a>
-                <a href="https://www.idrettsforbundet.no/">NIF</a>
-            </div>
-
-            <div class="footer_third">
-                <h1>Sosiale medier</h1>
-                <br>
-                <img src="../img/FACEBOOK.png" onclick="window.location.href='https://www.facebook.com/norges.roforbund';">
-                <br>
-                <br>
-                <img src="https://i.imgur.com/O8aRgsd.png" onclick="window.location.href='https://www.instagram.com/roforbundet/';">-->
-            </div>
-
-    <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
-</footer>
 
 <script type="text/javascript" src="scripts.js"></script>
 
