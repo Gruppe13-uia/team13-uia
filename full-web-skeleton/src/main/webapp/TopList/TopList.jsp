@@ -1,28 +1,21 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: adria
-  Date: 10/15/2020
-  Time: 1:50 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Norges Roforbund | Topplister</title>
-<!--Ion Icons-->
-<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Norges Roforbund | Topplister</title>
+    <!--Ion Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--Google Fonts-->
-<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tables.css">
 </head>
 <body>
 
@@ -80,7 +73,12 @@
         </div>
     </section>
 
-    <h1>Senior menn</h1>
+
+
+    <div class= overskrift>
+        <h1>Senior-menn</h1>
+    </div>
+
     <table class="Senior-menn">
         <thead>
         <tr>
@@ -146,7 +144,10 @@
         </tbody>
     </table>
 
-    <h1>Senior Kvinner</h1>
+    <div class= overskrift>
+        <h1>Senior-kvinner</h1>
+    </div>
+
     <table class="Senior-kvinner">
         <thead>
         <tr>
@@ -211,7 +212,10 @@
         </tbody>
     </table>
 
-    <h1>Junior Gutter</h1>
+    <div class= overskrift>
+        <h1>Junior-Gutter </h1>
+    </div>
+
     <table class="Junior-Gutter">
         <thead>
         <tr>
@@ -277,7 +281,11 @@
         </tbody>
     </table>
 
-    <h1>Junior Jenter</h1>
+
+    <div class= overskrift>
+        <h1>Junior-Jente</h1>
+    </div>
+
     <table class="Junior-Jenter">
         <thead>
         <tr>
@@ -384,7 +392,7 @@
                 <br>
                 <img src="https://i.imgur.com/O8aRgsd.png" onclick="window.location.href='https://www.instagram.com/roforbundet/';">-->
             </div>
-    <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
+            <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
 </footer>
 
 <script type="text/javascript" src="scripts.js"></script>
