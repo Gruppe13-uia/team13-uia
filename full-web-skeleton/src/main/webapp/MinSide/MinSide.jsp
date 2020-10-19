@@ -89,7 +89,7 @@
         <a href="#"><i class="fas fa-desktop"></i><span>Nyheter</span></a>
         <a href="#"><i class="far fa-edit"></i><span>Oppdater</span></a>
         <a href="../LeggTil/LeggTil.jsp"><i class="fas fa-plus"></i><span>Legg til</span></a>
-        <a href="#"><i class="fas fa-minus"></i><span>Fjern</span></a>
+        <a href="../deletehub/delete.jsp"><i class="fas fa-minus"></i><span>Slett</span></a>
         <a href="#"><i class="fas fa-running"></i><span>Utøver informasjon</span></a>
         <a href="#"><i class="fas fa-sliders-h"></i><span>Innstillinger</span></a>
     </div>

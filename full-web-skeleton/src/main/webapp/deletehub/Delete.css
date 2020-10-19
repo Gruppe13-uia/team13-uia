@@ -204,12 +204,12 @@ nav{
 }
 
 .activities-grid-item{
-    height: 30rem;
+    height: 20rem;
     padding: 5rem;
     color: #fafafa;
     /* color: #fafafa; */
     position: relative;
-    top: -670;
+    top: -110%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,18 +228,6 @@ nav{
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
     z-index: -1;
-}
-
-.Toplist-mix{
-    background: url("../img/goldmedal.jpg") center no-repeat;
-}
-
-.Toplist-men{
-    background: url("../img/hiking.jpg") center no-repeat;
-}
-
-.Toplist-women{
-    background: url("../img/camping.jpg") center no-repeat;
 }
 
 .activities-grid-item i{
@@ -268,11 +256,65 @@ nav{
     color: rgba(0,0,0,.7);
 }
 
-footer{
-    padding: 2.5rem 0;
-    background-color: #d7d4ed;
-    text-align: center;
-    color: rgba(0,0,0,.7);
+/* Footer*/
+.footer{
+    width: 100%;
+    height: 400px;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #18181a;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner_footer .logo_container img{
+    width: 250px;
+    height: auto;
+    margin-left: -100px;
+}
+
+.inner_footer .footer_third {
+    /*width: calc(21.6666666667% - 20px);*/
+    width: calc(22% - 15px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+    cursor: pointer;
+}
+
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.inner_footer .footer_third a{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
 }
 
 
