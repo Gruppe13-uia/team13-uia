@@ -80,6 +80,268 @@
         </div>
     </section>
 
+    <h1>Senior menn</h1>
+    <table class="Senior-menn">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Navn</th>
+            <th>Etternavn</th>
+            <th>Øvelse1</th>
+            <th>Øvelse2</th>
+            <th>Øvelse3</th>
+            <th>Øvelse4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Dzenet</td>
+            <td>Bero</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+        <tr class="active-row">
+            <td>2</td>
+            <td>Adel</td>
+            <td>Hodzalari</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Adrian</td>
+            <td>Spiker</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ronald</td>
+            <td>Mpararo</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Oskar</td>
+            <td>Testad</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <h1>Senior Kvinner</h1>
+    <table class="Senior-kvinner">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Navn</th>
+            <th>Etternavn</th>
+            <th>Øvelse1</th>
+            <th>Øvelse2</th>
+            <th>Øvelse3</th>
+            <th>Øvelse4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Dzenet</td>
+            <td>Bero</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+        <tr class="active-row">
+            <td>2</td>
+            <td>Adel</td>
+            <td>Hodzalari</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Adrian</td>
+            <td>Spiker</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ronald</td>
+            <td>Mpararo</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Oskar</td>
+            <td>Testad</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h1>Junior Gutter</h1>
+    <table class="Junior-Gutter">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Navn</th>
+            <th>Etternavn</th>
+            <th>Øvelse1</th>
+            <th>Øvelse2</th>
+            <th>Øvelse3</th>
+            <th>Øvelse4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Dzenet</td>
+            <td>Bero</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+        <tr class="active-row">
+            <td>2</td>
+            <td>Adel</td>
+            <td>Hodzalari</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Adrian</td>
+            <td>Spiker</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ronald</td>
+            <td>Mpararo</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Oskar</td>
+            <td>Testad</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <h1>Junior Jenter</h1>
+    <table class="Junior-Jenter">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Navn</th>
+            <th>Etternavn</th>
+            <th>Øvelse1</th>
+            <th>Øvelse2</th>
+            <th>Øvelse3</th>
+            <th>Øvelse4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Dzenet</td>
+            <td>Bero</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+        <tr class="active-row">
+            <td>2</td>
+            <td>Adel</td>
+            <td>Hodzalari</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Adrian</td>
+            <td>Spiker</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ronald</td>
+            <td>Mpararo</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Oskar</td>
+            <td>Testad</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+        </tr>
+        </tbody>
+    </table>
+
 </main>
 
 <footer>
