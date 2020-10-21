@@ -266,7 +266,7 @@ INSERT INTO `testregisters` (`Test_Register_ID`,`Group_ID`,`Test_Type_ID`) VALUE
 # DATA DUMP FOR TABLE: testtypes
 # ------------------------------------------------------------
 
-INSERT INTO `testtypes` (`Test_Type_ID`,`Øvelse_1`,`Øvelse_2`,`Øvelse_3`,`Øvelse_4`,`Øvelse_5`,`Øvelse_6`,`Øvelse_7`,`Øvelse_8`) VALUES (1,'5000_Watt','5000_Tid','2000_Watt','2000_Tid','60_Watt','Prosent_Ligg_Ro','Prosent_Knebøy','Bevegelighet'),(2,'5000_Watt','5000_Tid','2000_Watt','2000_Tid','60_Watt','Prosent_Ligg_Ro','Sargeant','Bevegelighet'),(3,'3000_Sekunder','3000_Tid','2000_Watt','2000_Tid','60_Watt','Antall_Kroppshevinger','Sargeant','Bevegelighet'),(4,'3000_Løp','60_Ro','Antall_Kroppshevinger','Sargeant','Bevegelighet',NULL,NULL,NULL);
+INSERT INTO `testtypes` (`Test_Type_ID`,`Exercise_1`,`Exercise_2`,`Exercise_3`,`Exercise_4`,`Exercise_5`,`Exercise_6`,`Exercise_7`,`Exercise_8`) VALUES (1,'5000_Watt','5000_Tid','2000_Watt','2000_Tid','60_Watt','Prosent_Ligg_Ro','Prosent_Knebøy','Bevegelighet'),(2,'5000_Watt','5000_Tid','2000_Watt','2000_Tid','60_Watt','Prosent_Ligg_Ro','Sargeant','Bevegelighet'),(3,'3000_Sekunder','3000_Tid','2000_Watt','2000_Tid','60_Watt','Antall_Kroppshevinger','Sargeant','Bevegelighet'),(4,'3000_Løp','60_Ro','Antall_Kroppshevinger','Sargeant','Bevegelighet',NULL,NULL,NULL);
 
 # ------------------------------------------------------------
 # DATA DUMP FOR TABLE: timesets
