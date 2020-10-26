@@ -52,7 +52,7 @@
                     <a href="../MinSide/MinSide.jsp" class="nav-link">Min side</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../.." class="nav-link">Logg ut</a>
+                    <a href="../" class="nav-link">Logg ut</a>
                 </li>
             </ul>
         </nav>
@@ -74,12 +74,12 @@
             <div class="activities-grid">
                 <!-- grid item #1 -->
                 <div class="activities-grid-item Toplist-mix" >
-                    <a href="../NyAddSide/AddSide.jsp"><h1>Legg til utøver</h1></a>
+                    <a href="../NewAddAthlete/NewAddAthlete.jsp"><h1>Legg til utøver</h1></a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
                 <!-- grid item #2 -->
                 <div class="activities-grid-item Toplist-men">
-                    <h1>Legg til Resultat</h1>
+                    <a href="../NewAddResults/NewAddResults.html"><h1>Legg til Resultater</h1></a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
                 <!-- grid item #3 -->
