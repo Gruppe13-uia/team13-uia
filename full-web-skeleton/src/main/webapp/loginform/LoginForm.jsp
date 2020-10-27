@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+
 <html lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8">
@@ -29,7 +31,7 @@
                 <br>
                 <input type="submit" value="Login">
                 <div class="contact_coach">
-                    Glemt brukernavn eller passord? <a href="../forgotpassword/forgotpassword.html">kontakt oss! </a>
+                    Glemt brukernavn eller passord? <a href="../forgotpassword/forgotpassword.jsp">kontakt oss! </a>
                 </div>
             </form>
         </div>

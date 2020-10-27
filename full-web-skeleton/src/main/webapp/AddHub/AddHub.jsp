@@ -1,4 +1,5 @@
-<!doctype html>
+<!--<!doctype html>-->
+<%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 
 <html lang="en">
 <head>
@@ -37,7 +38,7 @@
                     <i class="icon ion-md-close"></i>
                 </div>
                 <li class="nav-item">
-                    <a href="#" class="nav-link current">Hjem</a>
+                    <a href="#" class="nav-link">Hjem</a>
                 </li>
                 <li class="nav-item">
                     <a href="../ClubView/ClubView.jsp" class="nav-link">Klubboversikt</a>
@@ -49,7 +50,7 @@
                     <a href="../TopList/TopList.jsp" class="nav-link">Topplister</a>
                 </li>
                 <li class="nav-item">
-                    <a href="../MinSide/MinSide.jsp" class="nav-link">Min side</a>
+                    <a href="../MinSide/MinSide.jsp" class="nav-link current">Min side</a>
                 </li>
                 <li class="nav-item">
                     <a href="../" class="nav-link">Logg ut</a>
@@ -79,12 +80,12 @@
                 </div>
                 <!-- grid item #2 -->
                 <div class="activities-grid-item Toplist-men">
-                    <a href="../NewAddResults/NewAddResults.html"><h1>Legg til Resultater</h1></a>
+                    <a href="../NewAddResults/NewAddResults.jsp"><h1>Legg til Resultater</h1></a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
                 <!-- grid item #3 -->
                 <div class="activities-grid-item Toplist-women">
-                    <h1>Legg til klubb</h1>
+                    <a href="../AddClub"><h1>Legg til klubb</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
                 <div class="activities-grid-item Toplist-women">
