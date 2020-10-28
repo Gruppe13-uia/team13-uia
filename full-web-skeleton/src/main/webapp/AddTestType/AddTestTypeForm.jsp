@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="center">
-    <h1><img src="https://i.imgur.com/WBL1KTC.png" width="300" height="110" alt=""></h1>
+    <h1><img src="../img/DudeRowing.jpg" width="300" height="110" alt=""></h1>
     <form method="post" action="Add">
         <div class="FormTitle">
             <h1>Fyll ut:</h1>

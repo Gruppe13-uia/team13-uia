@@ -1,8 +1,9 @@
 <!--<!doctype html>-->
 <%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+
 <html lang="en">
 <head>
-    <meta charset="utf-8mb4">
+    <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -93,13 +94,56 @@
                 </div>
             </div>
         </section>
-
+    
 
     </main>
 
     <footer>
-        <p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>
+
+        <div class="footer">
+            <div class="inner_footer">
+                <div class="logo_container">
+                    <img src="https://i.imgur.com/ULmMtIH.png">
+                </div>
+    
+                <div class="footer_third">
+                    <h1>Kontakt</h1>
+                    <br>
+                    <a href="https://www.roing.no/">Norges Roforbund</a>
+                    <br>
+                    <a href="https://tinyurl.com/y6fjo9al">Sognsveien 73</a>
+                    <a href="https://tinyurl.com/y6fjo9al">0854 Oslo</a>
+                    <br>
+                    <a href="#">Mail: roing@nif.idrett.no</a>
+                    <a href="#">Telefon: 21029090</a>
+                    <br>
+                    <a href="#">Orgnr: 934 521 013</a>
+                    <br>
+                    <a href="#">Kontonr: 5134.06.06152</a>
+                </div>
+    
+                <div class="footer_third">
+                    <h1>Roforbundet</h1>
+                    <br>
+                    <a href="https://nordicrowing.com/">Nordisk Roforbund</a>
+                    <a href="http://www.worldrowing.com/">FISA</a>
+                    <a href="https://www.idrettsforbundet.no/">NIF</a>
+                </div>
+    
+                <div class="footer_third">
+                    <h1>Sosiale medier</h1>
+                    <br>
+                    <img src="../img/FACEBOOK.png" onclick="window.location.href='https://www.facebook.com/norges.roforbund';">
+                    <br>
+                    <br>
+                    <img src="https://i.imgur.com/O8aRgsd.png" onclick="window.location.href='https://www.instagram.com/roforbundet/';">-->
+                </div>
+    
+        <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
     </footer>
 
 </body>
 </html>
+
+
+
