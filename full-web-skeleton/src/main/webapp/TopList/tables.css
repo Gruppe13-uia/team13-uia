@@ -1,10 +1,14 @@
+/*
+  --Klasse overskrift fuker opp siden med å utvide den for mye, finne en annen måte å gjøre det på.--
+
 .overskrift{
     position: relative;
-    top: -600;
-    right: -900;
-}
+    top: -600px;
+    right: -900px;
+} */
 
-.Senior-Kvinner,
+
+.Senior-kvinner,
 .Senior-menn,
 .Junior-Gutter,
 .Junior-Jenter
@@ -55,7 +59,7 @@
 }
 
 /**/
-.Senior-Kvinner {
+.Senior-kvinner {
     border-collapse: collapse;
     margin: 40px 0;
     font-size: 1.5em;
@@ -65,31 +69,31 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.Senior-Kvinner thead tr {
+.Senior-kvinner thead tr {
     background-color: #009879;
     color: #ffffff;
     text-align: left;
     font-weight: bold;
 }
 
-.Senior-Kvinner th,
-.Senior-Kvinner td {
+.Senior-kvinner th,
+.Senior-kvinner td {
     padding: 12px 15px;
 }
 
-.Senior-Kvinner tbody tr {
+.Senior-kvinner tbody tr {
     border-bottom: 1px solid #dddddd;
 }
 
-.Senior-Kvinner tbody tr:nth-of-type(even) {
+.Senior-kvinner tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-.Senior-Kvinner tbody tr:last-of-type {
+.Senior-kvinner tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
-.Senior-Kvinner tbody tr.active-row {
+.Senior-kvinner tbody tr.active-row {
     font-weight: bold;
     color: #009879;
 }
