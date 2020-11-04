@@ -26,7 +26,7 @@ USE NRF;
 
 DROP TABLE IF EXISTS `athletes`;
 CREATE TABLE `athletes` (
-    `Athlete_ID` int(11) NOT NULL AUTO_INCREMENT,
+    `Athlete_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
     `Club_ID` int(11) DEFAULT NULL,
     `Group_ID` varchar(255) DEFAULT NULL,
     `Birth_Date` int(11) DEFAULT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE `athletes` (
 
 DROP TABLE IF EXISTS `classes`;
 CREATE TABLE `classes` (
-  `Class_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Class_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Class` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Class_ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
@@ -56,7 +56,7 @@ CREATE TABLE `classes` (
 
 DROP TABLE IF EXISTS `clubs`;
 CREATE TABLE `clubs` (
-  `Club_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Club_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Club_Name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Club_ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4;
@@ -67,7 +67,7 @@ CREATE TABLE `clubs` (
 
 DROP TABLE IF EXISTS `genders`;
 CREATE TABLE `genders` (
-  `Gender_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Gender_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Gender` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Gender_ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
@@ -78,7 +78,7 @@ CREATE TABLE `genders` (
 
 DROP TABLE IF EXISTS `groups`;
 CREATE TABLE `groups` (
-  `Group_ID` varchar(255) NOT NULL,
+  `Group_ID` varchar(255) NOT NULL UNIQUE,
   `Gender_ID` int(11) DEFAULT NULL,
   `Class_ID` int(11) DEFAULT NULL,
   `Rank_ID` int(11) DEFAULT NULL,
@@ -97,7 +97,7 @@ CREATE TABLE `groups` (
 
 DROP TABLE IF EXISTS `ranks`;
 CREATE TABLE `ranks` (
-  `Rank_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Rank_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Class_Rank` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Rank_ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
@@ -108,7 +108,7 @@ CREATE TABLE `ranks` (
 
 DROP TABLE IF EXISTS `results`;
 CREATE TABLE `results` (
-  `Result_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Result_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Athlete_ID` int(255) DEFAULT NULL,
   `5000_Watt` int(255) DEFAULT NULL,
   `5000_Tid` int(255) DEFAULT NULL,
@@ -134,7 +134,7 @@ CREATE TABLE `results` (
 
 DROP TABLE IF EXISTS `testregisters`;
 CREATE TABLE `testregisters` (
-  `Test_Register_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Test_Register_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Group_ID` varchar(255) DEFAULT NULL,
   `Test_Type_ID` int(11) DEFAULT NULL,
   PRIMARY KEY (`Test_Register_ID`),
@@ -150,7 +150,7 @@ CREATE TABLE `testregisters` (
 
 DROP TABLE IF EXISTS `testsets`;
 CREATE TABLE `testsets` (
-  `Test_Set_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Test_Set_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Test_Register_ID` int(11) DEFAULT NULL,
   `Time_ID` varchar(255) DEFAULT NULL,
   `Result_ID` int(11) DEFAULT NULL,
@@ -169,7 +169,7 @@ CREATE TABLE `testsets` (
 
 DROP TABLE IF EXISTS `testtypes`;
 CREATE TABLE `testtypes` (
-  `Test_Type_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Test_Type_ID` int(11) NOT NULL AUTO_INCREMENT UNIQUE,
   `Exercise_1` varchar(255) DEFAULT NULL,
   `Exercise_2` varchar(255) DEFAULT NULL,
   `Exercise_3` varchar(255) DEFAULT NULL,
@@ -187,7 +187,7 @@ CREATE TABLE `testtypes` (
 
 DROP TABLE IF EXISTS `timesets`;
 CREATE TABLE `timesets` (
-  `Time_ID` varchar(255) NOT NULL,
+  `Time_ID` varchar(255) NOT NULL UNIQUE,
   `Week` int(11) DEFAULT NULL,
   `Years` int(11) DEFAULT NULL,
   PRIMARY KEY (`Time_ID`)
@@ -202,7 +202,7 @@ CREATE TABLE `timesets` (
 DROP TABLE IF EXISTS `User_Info`;
 CREATE TABLE `User_Info` (
                              `Athlete_ID` int(11) NOT NULL,
-                             `Email` varchar(255) NOT NULL,
+                             `Email` varchar(255) NOT NULL UNIQUE,
                              `Password` varchar(255) NOT NULL,
                              PRIMARY KEY (`Email`),
                              KEY `User_Info_FK1` (`Athlete_ID`),
