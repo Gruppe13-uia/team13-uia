@@ -371,298 +371,1681 @@ nav{
         height: 100vh;
     }
 }
-
-.dropbtn {
-    background-color: gray;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    
-}
-#K1{
+#card1 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
     position: absolute;
-    width: 200px;
-    height: 100px;
-    right: 500px;
-    left: 140px;
-    top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+    top: 65%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
-#K2{
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	right: 500px;
-	left: 190px;
-	top: 45px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card2 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 65%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
-#K3{
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	right: 500px;
-	left: 190px;
-	top: 45px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card3 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 65%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
-#K4{
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	right: 500px;
-	left: 190px;
-	top: 45px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card4 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 145%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
-#K5{
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	right: 500px;
-	left: 190px;
-	top: 45px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card5 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 145%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
-#K6{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card6 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 145%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card7 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 225%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card8 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 225%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card9 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 225%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card10 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 305%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card11 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 305%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card12 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 305%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card13 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 385%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card14 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 385%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card15 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 385%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card16 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 465%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card17 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 465%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card18 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 465%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card19 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 545%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card20 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 545%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card21 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 545%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card22 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 625%;
+    left: 8%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card23 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 625%;
+    left: 40%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#card24 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    position: absolute;
+    top: 625%;
+    left: 70%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card-image1{
+    grid-area: image;
+    background-image: url(../img/Alvøen.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text1 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text1 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text1 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats1 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats1 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats1 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats1 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card1:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image2{
+    grid-area: image;
+    background-image: url(../img/Bergens.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text2 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text2 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text2 h2 {
+    margin-top: 0px;
+    font-size: 28px;
 }
 
-#K7{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats2 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
 }
 
-#K8{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats2 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
 }
 
-#K9{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats2 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
-
-#K10{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats2 .value {
+    font-size: 22px;
+    font-weight: 500;
 }
-
-#K11{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card2:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
+.card-image3{
+    grid-area: image;
+    background-image: url(../img/BSI.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
 
-#K12{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
 }
-
-#K13{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-text3 {
+    grid-area: text;
+    margin: 25px;
 }
-
-#K14{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-text3 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
 }
-
-#K15{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-text3 h2 {
+    margin-top: 0px;
+    font-size: 28px;
 }
-
-#K16{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats3 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
 }
-
-#K17{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats3 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
 }
-
-#K18{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats3 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
-
-#K18{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats3 .value {
+    font-size: 22px;
+    font-weight: 500;
 }
-
-#K19{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+#card3:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
+.card-image4{
+    grid-area: image;
+    background-image: url(../img/Bærum.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
 
-#K20{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
 }
-
-#K21{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-text4 {
+    grid-area: text;
+    margin: 25px;
 }
-
-#K22{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-text4 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
 }
-
-#K23{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-text4 h2 {
+    margin-top: 0px;
+    font-size: 28px;
 }
-
-#K24{
-	position: absolute;
-	width: 225px;
-	height: 100px;
-	right: 500px;
-	left: 120px;
-	top: 95px;
-	border-radius: 50%;
-	border: 1px solid #adadad;
+.card-stats4 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
 }
+.card-stats4 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats4 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats4 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card4:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image5{
+    grid-area: image;
+    background-image: url(../img/Christiania.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
 
+}
+.card-text5 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text5 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text5 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats5 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats5 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats5 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats5 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card5:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image6{
+    grid-area: image;
+    background-image: url(../img/Drammen.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text6 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text6 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text6 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats6 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats6 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats6 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats6 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card6:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image7{
+    grid-area: image;
+    background-image: url(../img/Fana.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text7 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text7 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text7 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats7 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats7 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats7 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats7 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card7:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image8{
+    grid-area: image;
+    background-image: url(../img/Fredrikstad.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text8 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text8 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text8 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats8 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats8 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats8 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats8 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card8:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image9{
+    grid-area: image;
+    background-image: url(../img/Haldens.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text9 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text9 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text9 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats9 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats9 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats9 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats9 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card9:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image10{
+    grid-area: image;
+    background-image: url(../img/Horten.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text10 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text10 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text10 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats10 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats10 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats10 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats10 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card10:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image11{
+    grid-area: image;
+    background-image: url(../img/Kristiansand.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text11 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text11 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text11 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats11 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats11 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats11 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats11 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card11:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image12 {
+    grid-area: image;
+    background-image: url(../img/Moss.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text12 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text12 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text12 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats12 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats12 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats12 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats12 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card12:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image13{
+    grid-area: image;
+    background-image: url(../img/NSR.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text13 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text13 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text13 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats13 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats13 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats13 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats13 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card13:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image14 {
+    grid-area: image;
+    background-image: url(../img/NTNUI.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text14 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text14 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text14 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats14 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats14 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats14 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats14 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card14:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image15 {
+    grid-area: image;
+    background-image: url(../img/Ormsund.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text15 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text15 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text15 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats15 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats15 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats15 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats15 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card15:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image16 {
+    grid-area: image;
+    background-image: url(../img/Os.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text16 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text16 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text16 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats16 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats16 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats16 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats16 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card16:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image17 {
+    grid-area: image;
+    background-image: url(../img/porsgrunn.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text17 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text17 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text17 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats17 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats17 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats17 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats17 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card17:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image18 {
+    grid-area: image;
+    background-image: url(../img/Sandefjord.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text18 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text18 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text18 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats18 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats18 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats18 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats18 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card18:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image19 {
+    grid-area: image;
+    background-image: url(../img/Sarpsborg.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text19 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text19 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text19 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats19 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats19 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats19 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats19 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card19:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image20 {
+    grid-area: image;
+    background-image: url(../img/Sjkrigsskolen.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text20 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text20 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text20 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats20 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats20 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats20 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats20 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card20:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image21 {
+    grid-area: image;
+    background-image: url(../img/Stavanger.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text21 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text21 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text21 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats21 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+	background: rgb(197, 192, 194);
+}
+.card-stats21 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats21 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats21 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card21:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image22 {
+    grid-area: image;
+    background-image: url(../img/Trondhjems.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text22 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text22 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text22 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats22 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats22 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats22 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats22 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card22:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image23 {
+    grid-area: image;
+    background-image: url(../img/Tønsberg.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text23 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text23 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text23 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats23 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats23 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats23 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats23 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card23:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-image24{
+    grid-area: image;
+    background-image: url(../img/Aalesunds.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+
+}
+.card-text24 {
+    grid-area: text;
+    margin: 25px;
+}
+.card-text24 p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-text24 h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card-stats24 {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(197, 192, 194);
+}
+.card-stats24 .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card-stats24 .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card-stats24 .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+#card24:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
 .dropdown {
     position: absolute;
-    left: 700px;
+    left: 48%;
     top: 50%;
-    display: inline-block;
+	display: inline-block;
 }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
 }
 .dropdown-content a {
     color: black;
@@ -679,240 +2062,65 @@ nav{
 .dropdown:hover .dropbtn {
     background-color: gray;
 }
-#Alvøen {
-	top:60%;
-	width:350px;
-	left: 200px;
-	height:200px;
+/* Footer*/
+.footer{
+    width: 100%;
+    height: 400px;
+	display: block;
 	position: absolute;
-	border-style: solid;
-	border-color: gray;
-}
-#Bergens {
-	top:60%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position: absolute;
-	border-style: solid;
-	border-color: gray;
-}
-#BSI {
-	top:110%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-#Bærum {
-    top:110%;
-	width:350px;
-	right: 100px;
-	height:200px;
-    position: absolute;
-    border-style: solid;
-    border-color: gray;
-}
-#Christiania {
-	top:160%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+	top: 700%;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #18181a;
 }
 
-#Drammen {
-	top:160%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
 }
 
-#Fana {
-	top:210%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
 }
 
-#Fredrikstad {
-	top:210%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer .logo_container img{
+    width: 250px;
+    height: auto;
+    margin-left: -100px;
 }
 
-#Haldens {
-	top:260%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer .footer_third {
+    /*width: calc(21.6666666667% - 20px);*/
+    width: calc(22% - 15px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+    cursor: pointer;
 }
 
-#Horten {
-	top:260%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
 }
 
-#Kristiansand {
-	top:310%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer .footer_third h1{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 22px;
+    color: white;
 }
 
-#Moss {
-	top:310%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
+.inner_footer .footer_third a{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
 }
-
-#NSR {
-	top:360%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#NTNUI {
-	top:360%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Ormsund {
-	top:410%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Os {
-	top:410%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Porsgrunn {
-	top:460%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Sandefjord {
-	top:460%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Sarpsborg {
-	top:510%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Sjøkrigsskolen {
-	top:510%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Stavanger {
-	top:560%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Trondhjems {
-	top:560%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Tønsberg {
-	top:610%;
-	width:350px;
-	left: 200px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-#Aalesunds {
-	top:610%;
-	width:350px;
-	right: 100px;
-	height:200px;
-	position:absolute;
-	border-style: solid;
-	border-color: gray;
-}
-
-
