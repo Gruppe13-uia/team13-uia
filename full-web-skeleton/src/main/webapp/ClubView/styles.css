@@ -2068,7 +2068,7 @@ nav{
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border-radius: 15%;
     cursor: pointer;
 }
 /* Footer*/
