@@ -2032,9 +2032,10 @@ nav{
 }
 .dropdown {
     position: absolute;
-    left: 48%;
+    left: 47%;
     top: 50%;
-	display: inline-block;
+    display: inline-block;
+    
 }
 .dropdown-content {
     display: none;
@@ -2060,7 +2061,15 @@ nav{
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: gray;
+    background-color:rgb(197, 192, 194);
+}
+.dropbtn {
+    background-color: #a9d85e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 /* Footer*/
 .footer{
