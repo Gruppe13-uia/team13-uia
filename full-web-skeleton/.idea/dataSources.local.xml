@@ -13,8 +13,6 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="test" />
-            <name qname="nr" />
             <name qname="NRF" />
           </node>
         </introspection-scope>
