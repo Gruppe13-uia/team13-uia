@@ -9,6 +9,7 @@ servlets/AbstractAppServlet.class
 tools/repository/Get.class
 servlets/AddServlets/InsertNewAthleteToDb.class
 servlets/EditServlets/UpdateClubInDb.class
+tools/repository/ToplistDao.class
 servlets/RemoveServlets/DeleteResultFromDb.class
 docker/file/JAXRSConfiguration.class
 tools/repository/Edit.class
@@ -29,6 +30,7 @@ servlets/AddServlets/InsertNewTestTypesToDb.class
 servlets/EditServlets/EditAthleteInDb.class
 servlets/RemoveServlets/DeleteAthleteFromDb.class
 servlets/AddServlets/AddUserToDb.class
+models/ToplistModel.class
 models/UserModel.class
 servlets/RemoveServlets/RemoveClubFromDb.class
 servlets/AddServlets/AddTestTypeToDb.class

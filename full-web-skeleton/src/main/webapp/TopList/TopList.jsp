@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java"%>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -74,18 +76,31 @@
         </div>
     </section>
 
-<<<<<<< HEAD
     <h1>Senior menn</h1>
-=======
-
-
 
     <div class= overskrift>
         <h1>Senior-menn</h1>
     </div>
 
->>>>>>> 115480ec8cc42ed533cc3238df1a91a358145878
     <table class="Senior-menn">
+
+        <div align="center">
+            <form action="list" method="post">
+                Select a Category:&nbsp;
+                <select name="category">
+                    <c:forEach items="${listCategory}" var="category">
+                        <option value="${category.id}"
+                                <c:if test="${category.id eq selectedCatId}">selected="selected"</c:if>
+                        >
+                                ${category.name}
+                        </option>
+                    </c:forEach>
+                </select>
+                <br/><br/>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+
         <thead>
         <tr>
             <th>Rank</th>
@@ -149,228 +164,7 @@
 
         </tbody>
     </table>
-
-<<<<<<< HEAD
-    <h1>Senior Kvinner</h1>
-=======
-    <div class= overskrift>
-        <h1>Senior-kvinner</h1>
-    </div>
-
->>>>>>> 115480ec8cc42ed533cc3238df1a91a358145878
-    <table class="Senior-kvinner">
-        <thead>
-        <tr>
-            <th>Rank</th>
-            <th>Navn</th>
-            <th>Etternavn</th>
-            <th>Øvelse1</th>
-            <th>Øvelse2</th>
-            <th>Øvelse3</th>
-            <th>Øvelse4</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>DzenetJETYJETY</td>
-            <td>Bero</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-        <tr class="active-row">
-            <td>2</td>
-            <td>Adel</td>
-            <td>Hodzalari</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>3</td>
-            <td>Adrian</td>
-            <td>Spiker</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>4</td>
-            <td>Ronald</td>
-            <td>Mpararo</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>5</td>
-            <td>Oskar</td>
-            <td>Testad</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-        </tbody>
-    </table>
-
-<<<<<<< HEAD
-    <h1>Junior Gutter</h1>
-=======
-    <div class= overskrift>
-        <h1>Junior-Gutter </h1>
-    </div>
-
->>>>>>> 115480ec8cc42ed533cc3238df1a91a358145878
-    <table class="Junior-Gutter">
-        <thead>
-        <tr>
-            <th>Rank</th>
-            <th>Navn</th>
-            <th>Etternavn</th>
-            <th>Øvelse1</th>
-            <th>Øvelse2</th>
-            <th>Øvelse3</th>
-            <th>Øvelse4</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>Dzenet</td>
-            <td>Bero</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-        <tr class="active-row">
-            <td>2</td>
-            <td>Adel</td>
-            <td>Hodzalari</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>3</td>
-            <td>Adrian</td>
-            <td>Spiker</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>4</td>
-            <td>Ronald</td>
-            <td>Mpararo</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>5</td>
-            <td>Oskar</td>
-            <td>Testad</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        </tbody>
-    </table>
-
-<<<<<<< HEAD
-    <h1>Junior Jenter</h1>
-=======
-
-    <div class= overskrift>
-        <h1>Junior-Jente</h1>
-    </div>
-
->>>>>>> 115480ec8cc42ed533cc3238df1a91a358145878
-    <table class="Junior-Jenter">
-        <thead>
-        <tr>
-            <th>Rank</th>
-            <th>Navn</th>
-            <th>Etternavn</th>
-            <th>Øvelse1</th>
-            <th>Øvelse2</th>
-            <th>Øvelse3</th>
-            <th>Øvelse4</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>Dzenet</td>
-            <td>Bero</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-        <tr class="active-row">
-            <td>2</td>
-            <td>Adel</td>
-            <td>Hodzalari</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>3</td>
-            <td>Adrian</td>
-            <td>Spiker</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>4</td>
-            <td>Ronald</td>
-            <td>Mpararo</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-
-        <tr>
-            <td>5</td>
-            <td>Oskar</td>
-            <td>Testad</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-        </tr>
-        </tbody>
-    </table>
-
 </main>
-
-
 
 <script type="text/javascript" src="scripts.js"></script>
 

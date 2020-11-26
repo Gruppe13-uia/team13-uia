@@ -1,85 +1,73 @@
 package servlets.Toplist;
 
+import models.ToplistModel;
 import servlets.AbstractAppServlet;
-import tools.repository.UserRepository;
+import tools.repository.ToplistDao;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.SQLException;
+import java.util.List;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.http.HttpServlet;
 
 
 @WebServlet(name= "TopListServlet", urlPatterns = {"/TopListServlet"})
 public class TopListServlet extends AbstractAppServlet {
-    /**
-     * Tar imot http requesten og kaller på writeResponse()
-     * @param request objektet sender data til servletet
-     * @param response objektet sender data fra servleten.
-     * @throws ServletException
-     * @throws IOException
-     */
-    @Override
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        writeResponse(request, response, "Hello!");
-    }
 
-    /**
-     * skriver ut body på servlet som html.
-     * @param req http request objektet med data.
-     * @param out http respons objektet som sender data.
-     */
-    @Override
-    protected void writeBody(HttpServletRequest req, PrintWriter out) {
-        out.println("Toppliste");
-    }
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Handles the HTTP <code>GET</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-
-    /**
-     * Alle get forespørsler til denne servleten blir håndert av doGEt.
-     * får servleten en Get request vil den svare med doGet som kaller på metoden process Request.
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException
-     * @throws IOException
-     */
-    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        listCategory(request, response);
     }
 
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+    private void listCategory(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        ToplistDao dao = new ToplistDao();
+
+        try {
+
+            List<ToplistModel> listCatagory = dao.list();
+            request.setAttribute("listCategory", listCatagory);
+
+            RequestDispatcher dispatcher = request.getRequestDispatcher("../webapp/TopList/TopList.jsp");
+            dispatcher.forward(request, response);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new ServletException(e);
+        }
+    }
+
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        String Firstname = request.getParameter("Firstname");
+
+        request.setAttribute("selectedCatId", Firstname);
+
+        listCategory(request, response);
     }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
+
+    @Override
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+    }
+
     @Override
     public String getServletInfo() {
         return "Short description";
-    }// </editor-fold>
+    }
+
+    @Override
+    protected void writeBody(HttpServletRequest req, PrintWriter out) {
+
+    }
 }
 

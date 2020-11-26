@@ -7,6 +7,7 @@
 /usr/src/mymaven/src/main/java/servlets/EditServlets/EditAthleteInDb.java
 /usr/src/mymaven/src/main/java/servlets/RemoveServlets/RemoveClubFromDb.java
 /usr/src/mymaven/src/main/java/servlets/AddServlets/InsertNewResultsToDb.java
+/usr/src/mymaven/src/main/java/models/ToplistModel.java
 /usr/src/mymaven/src/main/java/tools/repository/Delete.java
 /usr/src/mymaven/src/main/java/servlets/Toplist/TopListServlet.java
 /usr/src/mymaven/src/main/java/servlets/RemoveServlets/DeleteResultFromDb.java
@@ -29,6 +30,7 @@
 /usr/src/mymaven/src/main/java/docker/file/JavaEE8Resource.java
 /usr/src/mymaven/src/main/java/servlets/RemoveServlets/RemoveAthleteFromDb.java
 /usr/src/mymaven/src/main/java/models/UserModel.java
+/usr/src/mymaven/src/main/java/tools/repository/ToplistDao.java
 /usr/src/mymaven/src/main/java/tools/repository/Get.java
 /usr/src/mymaven/src/main/java/servlets/AddServlets/AddClubToDb.java
 /usr/src/mymaven/src/main/java/servlets/EditServlets/EditClubInDb.java
