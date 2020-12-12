@@ -47,7 +47,7 @@
                         <a href="../Testresultater/Testresultater.jsp" class="nav-link">Testresultater</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../TopList/TopList.jsp" class="nav-link">Topplister</a>
+                        <a href="../ListServlet" class="nav-link">Topplister</a>
                     </li>
                     <li class="nav-item">
                         <a href="../MinSide/MinSide.jsp" class="nav-link">Min side</a>

@@ -14,7 +14,7 @@
     <body>
         <div class="center"> 
             <h1><img src="https://i.imgur.com/0oFP51J.png" width="300" height="110" alt=""></h1>
-            <form method="post" action="Login">
+            <form method="post" action="FUCK DENNE FEILEN INN TIL VIDERE">
                 <div class="txt_field">
                     <input type="text" required name="Username">
                     <span></span>

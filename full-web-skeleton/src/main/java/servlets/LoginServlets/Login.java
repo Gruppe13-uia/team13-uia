@@ -1,4 +1,4 @@
-package servlets.LoginServlets;
+package main.java.servlets.LoginServlets;
 
 import servlets.AbstractAppServlet;
 import tools.repository.LoginDao;
@@ -33,8 +33,7 @@ public class Login extends AbstractAppServlet {
         if (dao.verify(username, pass, out)) {
             HttpSession session = request.getSession();
             session.setAttribute("Username", username);
-            response.sendRedirect("homepage_demo/homepage_demo.jsp");
-
+            response.sendRedirect("hjemmeside/index.jsp");
         } else {
             System.out.println("hei");
 

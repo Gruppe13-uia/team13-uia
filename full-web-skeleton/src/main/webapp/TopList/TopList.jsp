@@ -75,32 +75,24 @@
             </div>
         </div>
     </section>
-
-    <h1>Senior menn</h1>
-
-    <div class= overskrift>
-        <h1>Senior-menn</h1>
+    <div align="center">
+        <h2>Dynamic Drop Down List Demo</h2>
+        <form action="TopList.jsp" method="post">
+            Select an Athlete:&nbsp;
+            <select name="category">
+                <c:forEach items="${listCategory}" var="category">
+                    <option value="${category.id}"
+                            <c:if test="${category.id eq selectedCatId}">selected="selected"</c:if>
+                    >
+                            ${category.name}
+                    </option>
+                </c:forEach>
+            </select>
+            <br/><br/>
+            <input type="submit" value="Submit" />
+        </form>
     </div>
-
     <table class="Senior-menn">
-
-        <div align="center">
-            <form action="list" method="post">
-                Select a Category:&nbsp;
-                <select name="category">
-                    <c:forEach items="${listCategory}" var="category">
-                        <option value="${category.id}"
-                                <c:if test="${category.id eq selectedCatId}">selected="selected"</c:if>
-                        >
-                                ${category.name}
-                        </option>
-                    </c:forEach>
-                </select>
-                <br/><br/>
-                <input type="submit" value="Submit" />
-            </form>
-        </div>
-
         <thead>
         <tr>
             <th>Rank</th>
