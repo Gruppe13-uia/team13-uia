@@ -26,7 +26,7 @@ public class UserRepository {
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             ResultSet rs = null;
-            String query = "SELECT fname FROM otra.student_group where fname = ?";
+            String query = "SELECT Firstname FROM NRF.athletes where Firstname = ?";
             prepareStatement = db.prepareStatement(query);
             prepareStatement.setString(1, Firstname);
             rs = prepareStatement.executeQuery();

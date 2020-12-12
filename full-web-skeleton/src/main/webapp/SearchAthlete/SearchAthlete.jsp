@@ -75,7 +75,7 @@
 </main>
 
 <div id="cover">
-    <form method="get" action="">
+    <form method="get" action="../GetAthleteFromDB">
       <div class="tb">
         <div class="td"><input type="text" placeholder="Søk etter utøver" required></div>
         <div class="td" id="s-cover">

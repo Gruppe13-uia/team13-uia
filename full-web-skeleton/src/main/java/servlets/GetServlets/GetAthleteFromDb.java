@@ -1,4 +1,4 @@
-package servlets.GetServlets;
+package main.java.servlets.GetServlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +12,7 @@ import servlets.AbstractAppServlet;
 import tools.repository.UserRepository;
 
 
-@WebServlet(name= "ReceiveUserNameFromDb", urlPatterns = {"/ReceiveUserNameFromDb"})
+@WebServlet(name= "GetAthleteFromDB", urlPatterns = {"/GetAthleteFromDB"})
 public class GetAthleteFromDb extends AbstractAppServlet {
     /**
      * Tar imot http requesten og kaller på writeResponse()
@@ -35,7 +35,7 @@ public class GetAthleteFromDb extends AbstractAppServlet {
     @Override
     protected void writeBody(HttpServletRequest req, PrintWriter out) {
         String username = req.getParameter("uname");
-        String nameFromDb = UserRepository.getUserName(username,out);
+        String nameFromDb = tools.repository.Get.getAthlete(username, out);
         out.format("<h1> Here is your request: %s</h1", nameFromDb);
 
     }

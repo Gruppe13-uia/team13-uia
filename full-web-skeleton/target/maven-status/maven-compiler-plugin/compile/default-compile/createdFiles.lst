@@ -1,7 +1,7 @@
 servlets/AddServlets/InsertNewResultsToDb.class
+main/java/servlets/GetServlets/GetAthleteFromDb.class
 docker/file/JavaEE8Resource.class
 servlets/EditServlets/UpdateAthleteInDb.class
-servlets/GetServlets/GetAthleteFromDb.class
 servlets/RemoveServlets/RemoveResultFromDb.class
 servlets/LoginServlets/CheckLogin.class
 tools/repository/UserRepository.class

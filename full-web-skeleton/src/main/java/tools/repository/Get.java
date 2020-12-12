@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class Get {
 
-    public static String getAthlete(String Firstname, String Lastname, PrintWriter p) {
+    public static String getAthlete(String Firstname, PrintWriter p) {
         Connection db = null;
         PreparedStatement prepareStatement = null;
 
@@ -18,10 +18,9 @@ public class Get {
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             ResultSet rs = null;
-            String query = "SELECT fname FROM NRF.athletes where Firstname = ?, Lastname = ?";
+            String query = "SELECT Firstname FROM NRF.athletes where Firstname = ?";
             prepareStatement = db.prepareStatement(query);
             prepareStatement.setString(1, Firstname);
-            prepareStatement.setString(2, Lastname);
             rs = prepareStatement.executeQuery();
             while (rs.next()) {
                 toReturn = rs.getString(1);
