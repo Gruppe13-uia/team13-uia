@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="NRF" uuid="142694d3-2930-414d-a2f6-5c9b8df3aa2e">
+    <data-source name="NRF" uuid="76c3cb4a-edd6-4240-807b-ff6508632a94">
       <database-info product="MariaDB" version="10.5.4-MariaDB-1:10.5.4+maria~focal" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.6.0" dbms="MARIADB" exact-version="10.5.4" exact-driver-version="2.6">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
-      <user-name>admin</user-name>
+      <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="nrf" />
             <name qname="NRF" />
           </node>
         </introspection-scope>

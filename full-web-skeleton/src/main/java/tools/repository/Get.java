@@ -1,4 +1,4 @@
-package tools.repository;
+package main.java.tools.repository;
 
 import tools.DbTool;
 

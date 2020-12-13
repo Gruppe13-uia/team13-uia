@@ -6,7 +6,6 @@ servlets/RemoveServlets/RemoveResultFromDb.class
 servlets/LoginServlets/CheckLogin.class
 tools/repository/UserRepository.class
 servlets/AbstractAppServlet.class
-tools/repository/Get.class
 servlets/AddServlets/InsertNewAthleteToDb.class
 servlets/EditServlets/UpdateClubInDb.class
 servlets/RemoveServlets/DeleteResultFromDb.class
@@ -33,4 +32,5 @@ models/UserModel.class
 servlets/RemoveServlets/RemoveClubFromDb.class
 servlets/AddServlets/AddTestTypeToDb.class
 servlets/AddServlets/InsertNewClubToDb.class
+main/java/tools/repository/Get.class
 tools/DbTool.class

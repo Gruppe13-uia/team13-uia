@@ -35,7 +35,7 @@ public class GetAthleteFromDb extends AbstractAppServlet {
     @Override
     protected void writeBody(HttpServletRequest req, PrintWriter out) {
         String username = req.getParameter("uname");
-        String nameFromDb = tools.repository.Get.getAthlete(username, out);
+        String nameFromDb = main.java.tools.repository.Get.getAthlete(username, out);
         out.format("<h1> Here is your request: %s</h1", nameFromDb);
 
     }

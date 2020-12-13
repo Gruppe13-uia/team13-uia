@@ -128,7 +128,8 @@
                 <br>
                 <img src="https://i.imgur.com/O8aRgsd.png" onclick="window.location.href='https://www.instagram.com/roforbundet/';">-->
             </div>
-
+        </div>
+    </div>
             <!--<p>&copy; 2020 Gruppe 13. All rights NOT reserved. Reserved to Janis.</p>-->
 </footer>
 
