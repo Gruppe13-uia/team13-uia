@@ -26,14 +26,13 @@ public class UserRepository {
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             ResultSet rs = null;
-            String query = "SELECT fname FROM otra.student_group where fname = ?";
+            String query = "SELECT Firstname FROM NRF.athletes where Firstname = ?";
             prepareStatement = db.prepareStatement(query);
             prepareStatement.setString(1, Firstname);
             rs = prepareStatement.executeQuery();
             while (rs.next()) {
                 toReturn = rs.getString(1);
             }
-
             rs.close();
 
         } catch (SQLException throwables) {
@@ -44,20 +43,17 @@ public class UserRepository {
 
     }
 
-    public static void editUser(String username, String lastname, String age, String study_code, PrintWriter p) {
+    public static void editUser(String Firstname, String Lastname, PrintWriter p) {
         Connection db = null;
         PreparedStatement edituserdb = null;
         try {
             db = DbTool.getINSTANCE().dbLoggIn(p);
             String query =
-                    "UPDATE otra.student_group SET fname = ?, lname = ?, age = ?, study_code = ? WHERE fname = ? ";
+                    "UPDATE NRF.athletes SET Firstname = ?, Lastname = ?, WHERE Firstname = ? ";
             edituserdb = db.prepareStatement(query);
 
-            edituserdb.setString(1, username);
-            edituserdb.setString(2, lastname);
-            edituserdb.setString(3, age);
-            edituserdb.setString(4, study_code);
-            edituserdb.setString(5, username);
+            edituserdb.setString(1, Firstname);
+            edituserdb.setString(2, Lastname);
             edituserdb.execute();
 
         } catch (SQLException throwables) {

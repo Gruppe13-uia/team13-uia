@@ -76,8 +76,8 @@
         </div>
     </section>
     <div align="center">
-        <h2>Dynamic Drop Down List Demo</h2>
-        <form action="TopList.jsp" method="post">
+        <h2>Velg utøver</h2>
+        <form action="TopList/TopList.jsp" method="post">
             Select an Athlete:&nbsp;
                 <select name="category">
                     <c:forEach items="${listCategory}" var="category">
@@ -87,7 +87,7 @@
                         </option>
                     </c:forEach>
                 </select>
-            </>
+
             <br/><br/>
             <input type="submit" value="Submit" />
         </form>
@@ -97,61 +97,61 @@
         <tr>
             <th>Rank</th>
             <th>Navn</th>
-            <th>Etternavn</th>
-            <th>Øvelse1</th>
-            <th>Øvelse2</th>
-            <th>Øvelse3</th>
-            <th>Øvelse4</th>
+            <th>År</th>
+            <th>5000 Watt</th>
+            <th>5000 Tid</th>
+            <th>2000 Watt</th>
+            <th>Score</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>1</td>
-            <td>Dzenet</td>
-            <td>Bero</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
+            <td>Adrian</td>
+            <td>2020</td>
+            <td>367</td>
+            <td>16.23</td>
+            <td>437</td>
+            <td>90.7</td>
         </tr>
         <tr class="active-row">
             <td>2</td>
-            <td>Adel</td>
-            <td>Hodzalari</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
+            <td>Adrian</td>
+            <td>2016</td>
+            <td>334</td>
+            <td>16.56</td>
+            <td>387</td>
+            <td>87.5</td>
         </tr>
 
         <tr>
             <td>3</td>
             <td>Adrian</td>
-            <td>Spiker</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
+            <td>2017</td>
+            <td>320</td>
+            <td>15.43</td>
+            <td>375</td>
+            <td>85.6</td>
         </tr>
 
         <tr>
             <td>4</td>
-            <td>Ronald</td>
-            <td>Mpararo</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
+            <td>Adrian</td>
+            <td>2019</td>
+            <td>314</td>
+            <td>15.50</td>
+            <td>376</td>
+            <td>83.3</td>
         </tr>
 
         <tr>
             <td>5</td>
-            <td>Oskar</td>
-            <td>Testad</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
-            <td>xxx</td>
+            <td>Adrian</td>
+            <td>2018</td>
+            <td>305</td>
+            <td>19.20</td>
+            <td>340</td>
+            <td>76.5</td>
         </tr>
 
         </tbody>

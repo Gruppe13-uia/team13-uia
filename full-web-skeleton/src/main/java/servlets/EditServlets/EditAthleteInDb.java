@@ -34,15 +34,14 @@ public class EditAthleteInDb extends AbstractAppServlet {
      */
     @Override
     protected void writeBody(HttpServletRequest req, PrintWriter out) {
-        String username = req.getParameter("uname");
-        String lname = req.getParameter("lname");
-        String age = req.getParameter("age");
-        String study_code = req.getParameter("study_code");
+        String Firstname = req.getParameter("Firstname");
+        String Lastname = req.getParameter("Lastname");
 
 
-        out.println(username + lname + age + study_code);
-        UserRepository.editUser(username, lname, age, study_code, out);
-        String nameFromDb = UserRepository.getUserName(username,out);
+
+        out.println(Firstname, Lastname);
+        UserRepository.editUser(Firstname, Lastname, out);
+        String nameFromDb = UserRepository.getUserName(Firstname,out);
 
         out.format("<h1> Here is your request: %s</h1", nameFromDb);
 
