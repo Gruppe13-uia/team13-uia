@@ -90,7 +90,7 @@
         <a href="#"><i class="far fa-edit"></i><span>Oppdater</span></a>
         <a href="../AddHub/AddHub.jsp"><i class="fas fa-plus"></i><span>Legg til</span></a>
         <a href="../deletehub/delete.jsp"><i class="fas fa-minus"></i><span>Slett</span></a>
-        <a href="#"><i class="fas fa-running"></i><span>Utøver informasjon</span></a>
+        <a href="../SearchAthlete/SearchAthlete.jsp"><i class="fas fa-running"></i><span>Søk etter utøver</span></a>
         <a href="#"><i class="fas fa-sliders-h"></i><span>Innstillinger</span></a>
     </div>
 
