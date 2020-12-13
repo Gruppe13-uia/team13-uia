@@ -18,17 +18,12 @@ public class Login extends AbstractAppServlet {
     @Override
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
-
-
         String username = request.getParameter("Username");
         String pass = request.getParameter("Password");
 
         PrintWriter out = response.getWriter();
 
-
         LoginDao dao = new LoginDao();
-
 
         if (dao.verify(username, pass, out)) {
             HttpSession session = request.getSession();
@@ -37,7 +32,7 @@ public class Login extends AbstractAppServlet {
         } else {
             System.out.println("hei");
 
-            response.sendRedirect("LoginForm.jsp");
+            response.sendRedirect("loginform/LoginForm.jsp");
         }
     }
 
@@ -53,7 +48,6 @@ public class Login extends AbstractAppServlet {
         }
 
     }
-
 
     @Override
     protected void writeBody(HttpServletRequest req, PrintWriter out) {
