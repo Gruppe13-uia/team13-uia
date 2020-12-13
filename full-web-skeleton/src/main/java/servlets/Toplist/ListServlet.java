@@ -30,10 +30,10 @@ public class ListServlet extends HttpServlet {
 
         try {
 
-            List<Category> listCatagory = dao.list();
-            request.setAttribute("listCategory", listCatagory);
+            List<Category>  listCategory = dao.list();
+            request.setAttribute("listCategory", listCategory);
 
-            RequestDispatcher dispatcher = request.getRequestDispatcher("../../TopList/TopList.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("TopList/TopList.jsp");
             dispatcher.forward(request, response);
 
         } catch (SQLException e) {

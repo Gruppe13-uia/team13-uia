@@ -71,7 +71,7 @@
                 </section>
             </div>
             <div class="right">
-                <form>
+                <form method = "post" action="../AddUserToDb">
                     <section class="copy">
                         <h2>Legg til utøver</h2>
                         <div class="login-container">
@@ -79,12 +79,12 @@
                         </div>
                     </section>
                     <div class="input-container name">
-                        <label for="fname">Navn</label>
-                        <input id="fname" name="fname" type="text">
+                        <label for="Firstname">Navn</label>
+                        <input id="Firstname" name="Firstname" type="text">
                     </div>
                     <div class="input-container lastname">
-                        <label for="lname">Etternavn</label>
-                        <input id="lname" name="lname" type="text">
+                        <label for="Lastname">Etternavn</label>
+                        <input id="Lastname" name="Lastname" type="text">
                     </div>
                     <div class="input-container birthday">
                         <label for="birthday">Fødselsdato</label>

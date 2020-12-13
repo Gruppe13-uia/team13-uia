@@ -79,15 +79,15 @@
         <h2>Dynamic Drop Down List Demo</h2>
         <form action="TopList.jsp" method="post">
             Select an Athlete:&nbsp;
-            <select name="category">
-                <c:forEach items="${listCategory}" var="category">
-                    <option value="${category.id}"
-                            <c:if test="${category.id eq selectedCatId}">selected="selected"</c:if>
-                    >
-                            ${category.name}
-                    </option>
-                </c:forEach>
-            </select>
+                <select name="category">
+                    <c:forEach items="${listCategory}" var="category">
+                        <option value="${category.id}"
+                                <c:if test="${category.id eq selectedCatId}">selected="selected"</c:if>>
+                                ${category.name}
+                        </option>
+                    </c:forEach>
+                </select>
+            </>
             <br/><br/>
             <input type="submit" value="Submit" />
         </form>

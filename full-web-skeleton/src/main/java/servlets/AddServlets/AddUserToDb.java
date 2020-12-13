@@ -24,7 +24,7 @@ public class AddUserToDb extends AbstractAppServlet {
     @Override
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        writeResponse(request, response, "Hello!");
+        writeResponse(request, response, "Utøver lagt til!");
     }
 
     /**
