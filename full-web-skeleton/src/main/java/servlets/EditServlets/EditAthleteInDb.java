@@ -39,11 +39,11 @@ public class EditAthleteInDb extends AbstractAppServlet {
 
 
 
-        out.println(Firstname, Lastname);
+        /*out.println(Firstname, Lastname);
         UserRepository.editUser(Firstname, Lastname, out);
         String nameFromDb = UserRepository.getUserName(Firstname,out);
 
-        out.format("<h1> Here is your request: %s</h1", nameFromDb);
+        out.format("<h1> Here is your request: %s</h1", nameFromDb);*/
 
     }
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

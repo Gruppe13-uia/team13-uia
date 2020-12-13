@@ -40,11 +40,12 @@ public class EditClubInDb extends AbstractAppServlet {
         String study_code = req.getParameter("study_code");
 
 
-        out.println(username + lname + age + study_code);
+        /*out.println(username + lname + age + study_code);
         UserRepository.editUser(username, lname, age, study_code, out);
         String nameFromDb = UserRepository.getUserName(username,out);
 
-        out.format("<h1> Here is your request: %s</h1", nameFromDb);
+        out.format("<h1> Here is your request: %s</h1", nameFromDb);*/
+
 
     }
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
